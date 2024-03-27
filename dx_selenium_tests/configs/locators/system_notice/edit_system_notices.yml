@@ -1,0 +1,11 @@
+#default by: 'id'
+edit_system_notices:
+    url: 'system_notices/187793'
+    cancel_button:
+       by: 'link text'
+       value: 'Cancel'
+    edit_button:
+       by: 'link text'
+       value: 'Edit'
+    save_message_button:
+       value: 'system_notice_submit'

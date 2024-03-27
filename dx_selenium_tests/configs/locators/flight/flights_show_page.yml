@@ -1,0 +1,29 @@
+#default by: 'id'
+flights_show_page:
+    advertiser_link:
+        by: 'css selector'
+        value: '.breadcrumbs>a:nth-child(1)'
+    campaign_link:
+        by: 'css selector'
+        value: '.breadcrumbs>a:nth-child(2)'
+    edit_link:
+        by: 'link text'
+        value: 'Edit'
+    view_all_campaigns_link:
+        by: 'link text'
+        value: 'View Campaign'
+    creatives_link:
+        by: 'link text'
+        value: 'Creatives'
+    campaign_flight_budget_setup_link:
+        by: 'link text'
+        value: 'Campaign Flight Budget Setup'
+    blacklist_link:
+        value: 'view_campaign_blacklist'
+    whitelist_link:
+        value: 'view_campaign_whitelist'
+    oneview_section:
+        value: 'oneview'
+    flight_basics:
+        by: 'id'
+        value: 'flight_basics'

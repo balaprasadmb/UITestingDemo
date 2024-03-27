@@ -1,0 +1,37 @@
+edit_advertiser:
+    common: !include new_advertiser.yml
+    page_header:
+         by: 'css selector'
+         value: '.headTop>h1'
+    edit_page_content: ['details_section', 'currency_section', 'default_settings_section', 'oba_compliance_section', 'add_on_cost_section', 'rate_card_section', 'configure_licensing_section', 'configure_seats_section', 'facebook_section', 'submit_button', 'cancel_button']
+    details_section_content: ['organization_type', 'agency_group_disabled', 'agency_disabled', 'organization_name', 'email', 'contact_name', 'additional_domains', 'primary_domain', 'offer_type', 'platform_type']
+    inventory_locator:
+        by: 'css selector'
+        value: "input[data-inventory_supplier_name='{0}']"
+    error_message_for_email: 'Organization email must be in a valid format.'
+    error_message:
+        rate_card_with_different_currency: 'Rate card currency line 2: Geographic,1.0,0.45,0.54,CAD must match the organization currency (USD).'
+    agency_group_disabled:
+        by: 'css selector'
+        value: 'select[id="agency_group_id"][disabled="disabled"]'
+    details_section:
+        value: 'organization_details'
+    currency_section: 
+        value: 'currency'
+    default_settings_section:
+        value: 'default_settings'
+    oba_compliance_section:
+        value: 'oba_compliance'
+    add_on_cost_section:
+        value: 'organization_add_on_costs'
+    rate_card_section:
+        value: 'segment_rates'
+    configure_licensing_section:
+        value: 'organization_licensing'
+    configure_seats_section:
+        value: 'organization_seats'
+    facebook_section:
+        value: 'facebook_pages'
+    agency_disabled:
+        by: 'css selector'
+        value: 'select[id="agency_id"][disabled="disabled"]'

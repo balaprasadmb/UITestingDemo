@@ -1,0 +1,17 @@
+#default by: 'id'
+login_slides_edit_page:
+    name_textbox:
+        value: 'login_screen_slide_name'
+    enabled_checkbox:
+        value: 'login_screen_slide_enabled'
+    body_textbox:
+        value: 'login_screen_slide_body'
+    create_login_slide_btn:
+        value: 'login_screen_slide_submit'
+    edit_page_back_link:
+        by: 'css selector'
+        value: '.headBot > p > a'
+    new_page_back_link:
+        by: 'css selector'
+        value: '.contain_cols12 > a'
+    login_slides_edit_page_elements: ['name_textbox', 'enabled_checkbox', 'body_textbox', 'create_login_slide_btn', 'new_page_back_link']

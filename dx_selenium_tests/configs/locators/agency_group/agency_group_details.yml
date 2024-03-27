@@ -1,0 +1,53 @@
+#default by: 'id'
+agency_group_details:
+    agency_group_list_page:
+        by: 'css selector'
+        value: 'a[href="/agency_groups?locale=en"]'
+    add_agency:
+        by: 'link text'
+        value: 'Add Agency'
+    edit_details:
+        by: 'css selector'
+        value: 'input[type="submit"]'
+    cogs_value:
+        by: 'css selector'
+        value: '.cogs'
+    margin_value:
+        by: 'css selector'
+        value: '.margin'
+    details_div:
+        value: 'details'
+    currency_div:
+        value: 'currencies'
+    settings_div:
+        value: 'settings'
+    seats_div:
+        value: 'seats'
+    add_on_cost_div:
+        value: 'add_on_costs'
+    rate_card_div:
+        value: 'segment_rates'
+    licenses_div:
+        value: 'licenses'
+    inventories_div:
+        value: 'inventories'
+    success_message: 'Agency group "{0}" was successfully updated.'
+    add_on_cost_rate:
+        by: 'css selector'
+        value: '.cols1.aoc_value.rgt.break-word'
+    greyed_out_currency_list_box:
+        by: 'css selector'
+        value: 'select[id="agency_group_organization_attributes_currency_id"][disabled="disabled"]'
+    invetory_locator:
+        by: 'css selector'
+        value: "input[data-inventory_supplier_name='{0}']"
+    seat_content:
+        by: 'css selector'
+        value: 'tr > td:nth-child(2) > div'
+    contracted_currency:
+        by: 'css selector'
+        value: '.contracted_currency'
+    currency_list: ["United States Dollar (USD)", "Euro (EUR)", "British Pound (GBP)", "Argentine Peso (ARS)", "Australian Dollar (AUD)", "Brazilian Real (BRL)", "Bulgarian Lev (BGN)", "Canadian Dollar (CAD)", "Chilean Peso (CLP)", "Chinese Renminbi Yuan (CNY)", "Colombian Peso (COP)", "Costa Rican Colón (CRC)", "Czech Koruna (CZK)", "Danish Krone (DKK)", "Guatemalan Quetzal (GTQ)", "Hong Kong Dollar (HKD)", "Hungarian Forint (HUF)", "Indian Rupee (INR)", "Indonesian Rupiah (IDR)", "Japanese Yen (JPY)", "Macanese Pataca (MOP)", "Malaysian Ringgit (MYR)", "Mexican Peso (MXN)", "New Taiwan Dollar (TWD)", "New Zealand Dollar (NZD)", "Nicaraguan Córdoba (NIO)", "Norwegian Krone (NOK)", "Panamanian Balboa (PAB)", "Philippine Peso (PHP)", "Polish Złoty (PLN)", "Romanian Leu (RON)", "Russian Ruble (RUB)", "Serbian Dinar (RSD)", "Singapore Dollar (SGD)", "South Korean Won (KRW)", "Swedish Krona (SEK)", "Swiss Franc (CHF)", "Thai Baht (THB)", "Turkish Lira (TRY)", "Ukrainian Hryvnia (UAH)", "Vietnamese Đồng (VND)"]
+    available_currency_list_locator:
+        by: 'css selector'
+        value: '.cols9>ul>li'

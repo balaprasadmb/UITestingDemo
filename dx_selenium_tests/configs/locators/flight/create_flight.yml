@@ -1,0 +1,269 @@
+#default by: 'id'
+create_flight:
+    edit_flight_name:
+        value: 'flight_description'
+    flight_tactic:
+        value: 'flight_tactic_id'
+    algorithm:
+        by: 'css selector'
+        value: '.chzn-single'
+    start_date:
+        value: 'flight_start_at_visible'
+    end_date:
+        value: 'flight_end_at_visible'
+    spent:
+        by: 'css selector'
+        value: '#flight_spent_input>input'
+    deafault_bid_usd:
+        value: 'flight_default_bid'
+    budget_usd:
+        value: 'flight_io_budget'
+    alloc:
+        value: 'flight_percent_allocated'
+    inventory_suppliers:
+        by: 'css selector'
+        value: '#inventory_suppliers>div>h1>div>a>.icon-information'
+    creative_type:
+        value: 'flight_creative_format_id'
+    avail_inventory:
+        value: 'inventory_suppliers_all'
+    move_select_inventory:
+        value: 'mv_sel_inventory_suppliers'
+    move_all_inventory:
+        value: 'mv_all_sel_inventory_suppliers'
+    remove_all_inventory:
+        value: 'rm_all_sel_inventory_suppliers'
+    remove_select_inventory:
+        value: 'rm_sel_inventory_suppliers'
+    applied_inventory:
+        value: 'inventory_suppliers_selected'
+    deals:
+        by: 'css selector'
+        value: '#deal_inventory>div>h1>div>span'
+    deals_filters:
+        by: 'css selector'
+        value: '#deal_inventory_filter>label>input'
+    deals_table:
+        by: 'css selector'
+        value: '.dataTable'
+    master_select_deals:
+        value: 'select_all_deal_inventory'
+    select_first_deal:
+        by: 'css selector'
+        value: '.dataTable>tbody>tr:first-child>td:first-child>input'
+    first_deal:
+        by: 'css selector'
+        value: '.dataTable>tbody>tr:nth-child(1)>td:nth-child(2)>a'
+    add_on_cost_expand:
+        by: 'css selector'
+        value: '#add_on_costs>div>h1>div>span'
+    new_add_on_cost:
+        value: 'add_new_add_on_cost'
+    add_on_cost_name:
+        by: 'css selector'
+        value: '.aoc_row>.aoc_name>.custom_select>select'
+    add_on_cost_rate:
+        value: '.aoc_row> div.aoc_value :nth-child(3)'
+        by: 'css selector'
+    add_on_cost_fee_type:
+        by: 'css selector'
+        value: '#add_on_costs_content > .aoc_row > .aoc_fee_type > select'
+    add_on_cost_billable:
+        by: 'css selector'
+        value: '#add_on_costs_content > .aoc_row > .aoc_is_billable > input ~ input'
+    add_on_cost_marketplace:
+        by: 'css selector'
+        value: '#add_on_costs_content > .aoc_row > .aoc_is_marketplace > input ~ input'
+    aoc_remove_button:
+        by: 'css selector'
+        value: '.remove_add_on_cost'
+    private_inventory:
+        by: 'css selector'
+        value: '#inventory_pools>div>h1>div>span'
+    first_private_inventory:
+        by: 'css selector'
+        value: '#inventory_pools_content>ol>div:nth-child(3)>div>input'
+    inherit_lang_targeting:
+        value: 'flight_inherit_language_targeting_true'
+    separate_language_targeting:
+        value: 'flight_inherit_language_targeting_false'
+    lang_targeting_available:
+        value: 'target_languages_all'
+    move_selected_lang:
+        value: 'mv_sel_target_languages'
+    remove_selected_lang:
+        value: 'rm_sel_target_languages'
+    move_all_selected_lang:
+        value: 'mv_all_sel_target_languages'
+    remove_all_selected_lang:
+        value: 'rm_all_sel_target_languages'
+    lang_targeting_selected:
+        value: 'target_languages_selected'
+    lang_targeting:
+        by: 'css selector'
+        value: '#language_targeting>div>h1>div>span'
+    select_first_lang:
+        by: 'css selector'
+        value: '#target_languages_all > option:first-child'
+    geographic_targeting:
+        by: 'css selector'
+        value: '#target_audiences>div>h1>div>span'
+    inherit_geo_targeting:
+        by: 'css_selector'
+        value: 'flight_inherit_geo_targeting_true'
+    separate_geo_targeting:
+        value: 'flight_inherit_geo_targeting_false'
+    country_available:
+        value: 'country_countries_all'
+    country_selected:
+        value: 'country_countries_selected'
+    country_first_select:
+        by: 'css selector'
+        value: '#country_countries_all > option:first-child'
+    move_selected_country:
+        value: 'mv_sel_country_countries'
+    remove_selected_country:
+        value: 'rm_sel_country_countries'
+    move_all_selected_country:
+        value: 'mv_all_sel_country_countries'
+    remove_all_selected_country:
+        value: 'rm_all_sel_country_countries'
+    blacklist:
+        by: 'css selector'
+        value: '#blacklist>div>h1>div>span'
+    inherit_blacklist:
+        value: 'flight_black_list_inherits_from_campaign'
+    blacklist_link:
+        value: 'view_campaign_blacklist'
+    new_blacklist:
+        value: 'flight_black_list_inherits_from_custom'
+    blacklist_file:
+        value: 'flight_black_list_domains_file'
+    blacklist_domains:
+        value: 'flight_black_list_domains'
+    no_blacklist:
+        value: 'flight_black_list_inherits_from_none'
+    whitelist:
+        by: 'css selector'
+        value: '#whitelist>div>h1>div>span'
+    inherit_whitelist:
+        value: 'flight_white_list_inherits_from_campaign'
+    whitelist_link:
+        value: 'view_campaign_whitelist'
+    new_whitelist:
+        value: 'flight_white_list_inherits_from_custom'
+    whitelist_file:
+        value: 'flight_white_list_domains_file'
+    whitelist_domains:
+        value: 'flight_white_list_domains'
+    no_whitelist:
+        value: 'flight_white_list_inherits_from_none'
+    close_popup:
+        by : 'css selector'
+        value: '.ui-icon.ui-icon-closethick'
+    audience_targeting:
+        by : 'css selector'
+        value: '#audience_targeting>div>h1>div>span'
+    audience_search:
+        by : 'css selector'
+        value: '.available>input'
+    avail_audience:
+        value: 'segments_all'
+    included_audience:
+        value: 'included_segments_selected'
+    excluded_audience:
+        value: 'excluded_segments_selected'
+    include_audience:
+        value: 'mv_sel_included_segments'
+    include_all_audience:
+        value: 'mv_all_sel_included_segments'
+    exclude_audience:
+        value: 'mv_sel_excluded_segments'
+    exclude_all_audience:
+        value: 'mv_all_sel_excluded_segments'
+    remove_audience:
+        value: 'rm_sel_segments'
+    remove_all_audience:
+        value: 'rm_all_sel_segments'
+    edit_link:
+        by: 'link text'
+        value: 'Edit'
+    flight_details:
+        by: 'id'
+        value: 'flight_details'
+    domains_popup:
+        by: 'css'
+        value: '.ui-dialog.dialog-500'
+    flight_attributes_validation:
+        start_date: ''
+        end_date: ''
+        deafault_bid_usd: ''
+        Budget_usd: ''
+        alloc: ''        
+    save_and_exit:
+        value: 'flight_submit'
+    save_and_continue:
+        by: 'css selector'
+        value: '.remove_fieldset.dbl_button > ol > li:nth-child(3) > input'
+    preferred_placement:
+        value: 'flight_visibility'
+    flight_attributes:
+        fee_type: 'CPM (USD)'
+        preferred_placement: 'Above the fold'
+        language_target: 'German'
+        country_target: 'Brazil'
+        blacklist_url: 'www.google.com'
+        whitelist_url: 'www.yahoo.com'
+        inventory: 'AppNexus'
+    blank_error_message:
+        start_date_blank: "Start date can't be blank"
+        end_date_blank: "End date can't be blank"
+        bid_blank: "Default bid can't be blank"
+        budget_blank: "Io budget is not a number"
+    negative_error_message:
+        bid_negative_error: "The bid must be between 0 and 100.0."
+        budget_negative_error: "Io budget must be greater than or equal to 0"
+        impression_cap_error: "Impression cap must be greater than or equal to 1"
+        frequency_cap_err0r: "Frequency Cap impression count must be greater than or equal to 1"
+    alphanumeric_error_message:
+        bid_error: "Default bid is not a number"
+        budget_error: "Io budget is not a number"
+        impression_error: "Impression cap is not a number"
+        frequency_error: "Frequency Cap impression count is not a number"
+    search_text: 'test-deal'
+    oneview_warning_popup:
+        by: 'css selector'
+        value: '.modal-dialog.no-close-button'
+    one_view_section_enabled:
+        value: 'oneview'
+    single_device_enabled:
+        value: 'flight_oneview_policy_uid_TdBljmQIbB'
+    high_precision_enabled:
+        value: 'flight_oneview_policy_uid_TdeSfwhQ3E'
+    broad_reach_enabled:
+        value: 'flight_oneview_policy_uid_Tdf2yuzHuy'
+    one_view_section_disabled:
+        by: 'css selector'
+        value: 'div[id=oneview][class*=hide]'
+    single_device_disabled:
+        by: 'css selector'
+        value: 'input[id=flight_oneview_policy_uid_TdBljmQIbB][disabled="disabled"]'
+    high_precision_disabled:
+        by: 'css selector'
+        value: 'input[id=flight_oneview_policy_uid_TdeSfwhQ3E][disabled="disabled"]'
+    broad_reach_disabled:
+        by: 'css selector'
+        value: 'input[id=flight_oneview_policy_uid_Tdf2yuzHuy][disabled="disabled"]'
+    one_view_policies_disabled: ['single_device_disabled', 'high_precision_disabled', 'broad_reach_disabled']
+    oneview_aoc_name:
+        by: 'css selector'
+        value: '.cols3.aoc_name.break-word'
+    oneview_popup_ok:
+        by: 'css selector'
+        value: '.no-close-button > div:nth-child(3) > button:nth-child(1)'
+    oneview_popup_cancel:
+        by: 'css selector'
+        value: '.no-close-button > div:nth-child(3) > button:nth-child(2)'
+    one_view_policies_enabled: ['broad_reach_enabled', 'high_precision_enabled', 'single_device_enabled']
+    broad_reach_warning: ['high_precision_enabled', 'single_device_enabled']
+    single_device_warning: ['high_precision_enabled', 'broad_reach_enabled']

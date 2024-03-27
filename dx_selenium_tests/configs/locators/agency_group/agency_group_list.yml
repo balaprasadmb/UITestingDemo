@@ -1,0 +1,28 @@
+#default by: 'id'
+agency_group_list:
+    url: 'agency_groups/'
+    new_agency_group_link:
+        by: 'link text'
+        value: 'New Agency Group'
+    search_box:
+        value: 'filter_agency_groups'
+    page_header:
+        by: 'css selector'
+        value: '.box.header-text'
+    edit_icon:
+        by: 'css selector'
+        value: "a[title='Edit']"
+    delete_icon:
+        by: 'css selector'
+        value: "a[title='Delete']"
+    success_message: 'Agency group "{0}" successfully deleted.'
+    success_message_locator:
+        by: 'css selector'
+        value: '.flash.notice'
+    invalid_search_message: 'No Agency Groups to browse.'
+    agency_group_name_locator:
+        by: 'css selector'
+        value: '.name_link>a'
+    sort_button_locator:
+        by: 'css selector'
+        value: '.sortable.name_link.header'

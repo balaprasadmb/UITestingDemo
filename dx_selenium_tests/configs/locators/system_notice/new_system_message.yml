@@ -1,0 +1,33 @@
+#default by: 'id'
+new_system_message:
+    url: 'system_notices/new'
+    message_type:
+       value: 'system_notice_message_type'
+    display_to_users:
+       value: 'system_notice_invoker_type'
+    title:   
+       value: 'system_notice_title'
+    start_date:
+       value: 'system_notice_start_date_visible'
+    end_date:
+       value: 'system_notice_end_date_visible'
+    status:
+       value: 'system_notice_status'
+    message_body:
+       value: 'system_notice_body'
+    importance:
+       value: 'system_notice_importance'
+    external_link_text:
+        value: 'system_notice_system_notice_links_attributes_0_text'
+    external_link_url:
+        value: 'system_notice_system_notice_links_attributes_0_link'
+    add_external_link:
+        value: 'add_link'
+    save_message:
+        value: 'system_notice_submit'
+    cancel:
+        by: 'css selector'
+        value: '.cancel'
+    delete_icon:
+        by: 'css selector'
+        value: '.delete_link_0'

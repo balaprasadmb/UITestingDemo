@@ -1,0 +1,81 @@
+#default by: 'id'
+activity_list_page:
+    create_activity_button:
+        by: 'css selector'
+        value: '.rbox a'
+    activity_filter_box:
+        value: 'name_filter'
+    organization_dropdown:
+        by: 'css selector'
+        value: 'a.chzn-single'
+    organization_dropdown_input:
+        by: 'css selector'
+        value: '.chzn-search input'
+    seleceted_organization_name:
+        by: 'css selector'
+        value: '.chzn-single > span'
+    header_master_checkbox:
+        by: 'css selector'
+        value: '.selectable .select_all'
+    footer_master_checkbox:
+        by: 'css selector'
+        value: '.table_view_footer > .select_all'
+    display_checked_activities_button:
+        value: 'display-checked-activities'
+    export_selected_activities_button:
+        value: 'export-selected-activities'
+    share_activities_button:
+        value: 'share-activities'
+    gear_icon:
+        by: 'css selector'
+        value: 'tbody > tr:nth-child(1) > td:nth-child(11) > span >img'
+    edit_activity_link:
+        by: 'css selector'
+        value: 'tbody > tr:nth-child(1) > td:nth-child(11) > span > div > ol > li:nth-child(1) > a'
+    view_activity_link:
+        by: 'css selector'
+        value: 'tbody > tr:nth-child(1) > td:nth-child(11) > span > div > ol > li:nth-child(2) > a'
+    first_activity_name:
+        by: 'css selector'
+        value: 'tbody > tr:nth-child(1) > td:nth-child(2) > a'
+    first_activity_checkbox:
+        by: 'css selector'
+        value: 'tbody > tr:nth-child(1) > td:nth-child(1) > input'
+    pagination_previous_button:
+        by: 'css selector'
+        value: '.button.previous-page'
+    pagination_next_button:
+        by: 'css selector'
+        value: '.button.next-page'
+    pagination_select_rows_dropdown:
+        by: 'css selector'
+        value: '.pagination_select_rows'
+    go_to_page_textbox:
+        by: 'css selector'
+        value: '.pagination_form'
+    display_activities_popup:
+        value: 'actions-export-popup'
+    display_activities_popup_close_btn:
+        by: 'css selector'
+        value: '.ui-icon-closethick'
+    activity_table:
+        by: 'css selector'
+        value: '#activities_view > table'
+    organization_checkbox:
+        by: 'css selector'
+        value: '.selectable > thead > tr > th > input'
+    shared_organizations_table:
+        value: 'shared_organizations_table'
+    share_button:
+        value: 'activity_submit'
+    shared_status:
+        by: 'css selector'
+        value: 'tbody > tr:nth-child(1) > td:nth-child(9)'
+    dataxu_logo:
+       by: 'css selector'
+       value: '#logo>img'
+    activity_list_page_contents: ['Name', 'Pixel ID', 'Pixel Type', 'Last Fired', '30 Day Activity', 'Secure', 'RMX', 'Shared', 'Last Updated']
+    activity_list_page_elements: ['organization_dropdown_input', 'create_activity_button', 'activity_filter_box', 'display_checked_activities_button', 'share_activities_button', 'pagination_previous_button', 'pagination_next_button', 'pagination_select_rows_dropdown', 'go_to_page_textbox', 'header_master_checkbox', 'gear_icon', 'export_selected_activities_button']
+    activity_gear_icon_elements: ['edit_activity_link', 'view_activity_link']
+    activity_share_popup_element: ['shared_organizations_table', 'share_button']
+    activity_list_page_elements_without_permission: ['organization_dropdown_input', 'create_activity_button', 'activity_filter_box', 'display_checked_activities_button', 'pagination_previous_button', 'pagination_next_button', 'pagination_select_rows_dropdown', 'go_to_page_textbox', 'header_master_checkbox', 'gear_icon', 'export_selected_activities_button']

@@ -1,0 +1,15 @@
+#default by: 'id'
+user_edit_page:
+    add_user_roll_button:
+        by: 'css selector'
+        value: '.add'
+    organization_dropdown_1:
+        value: 'user_user_auth_roles_attributes_0_scope_id'
+    role_dropdown_1:
+        value: 'user_user_auth_roles_attributes_0_auth_role_id'
+    organization_dropdown_2:
+        value: 'user_user_auth_roles_attributes_1_scope_id'
+    role_dropdown_2:
+        value: 'user_user_auth_roles_attributes_1_auth_role_id'
+    update_user_button:
+        value: 'user_submit'

@@ -1,0 +1,84 @@
+#default by: 'id'
+bulk_edit_creatives:
+    add_creative:
+        value: 'add_new_bulk_button'
+    cancel_creative:
+        value: 'cancel_bulk_button'
+    save_creatives:
+        value: 'save_bulk_button'
+    first_creative_name:
+        by: 'css selector'
+        value: '#bulk_form>div>form>table>tbody>tr:nth-child(1)>.name>input'
+    first_start_date:
+        by: 'css selector'
+        value: '#bulk_form>div>form>table>tbody>tr:nth-child(1)>.name>div>input[id$="start_date_visible"]'
+    first_end_date:
+        by: 'css selector'
+        value: '#bulk_form>div>form>table>tbody>tr:nth-child(1)>.name>div>input[id$="end_date_visible"]'
+    first_concept:
+        by: 'css selector'
+        value: '#bulk_form>div>form>table>tbody>tr:nth-child(1)>td:nth-child(2)>input'
+    first_tag:
+        by: 'css selector'
+        value: '.ad_tag_snippet'
+    first_url:
+        by: 'css selector'
+        value: '#bulk_form>div:nth-child(2)>form>table>tbody>tr:nth-child(1)>td:nth-child(4)>input'
+    first_preview:
+        by: 'css selector'
+        value: '#bulk_form>div:nth-child(2)>form>table>tbody>tr:nth-child(1)>.advertiser_url>.preview>img'
+    first_remove:
+        by: 'css selector'
+        value: '#bulk_form>div:nth-child(2)>form>table>tbody>tr:nth-child(1)>.advertiser_url>.remove>img'
+    second_creative_name:
+        by: 'css selector'
+        value : '#bulk_form>div:nth-child(2)>form>table>tbody>tr:nth-child(2)>td.name>input'
+    second_start_date:
+        by: 'css selector'
+        value: '#bulk_form>div:nth-child(2)>form>table>tbody>tr:nth-child(2)>td.name>div>input[id$="start_date_visible"]'
+    second_end_date:
+        by: 'css selector'
+        value: '#bulk_form>div:nth-child(2)>form>table>tbody>tr:nth-child(2)>td.name>div>input[id$="end_date_visible"]'
+    second_concept:
+        by: 'css selector'
+        value: '#bulk_form>div:nth-child(2)>form>table>tbody>tr:nth-child(2)>td:nth-child(2)>input'
+    second_tag:
+        by: 'css selector'
+        value: '#bulk_form>div:nth-child(2)>form>table>tbody>tr:nth-child(2)>td:nth-child(3)>textarea'
+    second_url:
+        by: 'css selector'
+        value: '#bulk_form>div:nth-child(2)>form>table>tbody>tr:nth-child(2)>td:nth-child(4)>input'
+    second_preview:
+        by: 'css selector'
+        value: '#bulk_form>div:nth-child(2)>form>table>tbody>tr:nth-child(2)>.advertiser_url>.preview>img'
+    second_remove:
+        by: 'css selector'
+        value: '#bulk_form>div:nth-child(2)>form>table>tbody>tr:nth-child(2)>.advertiser_url>.remove>img'
+    third_creative_name:
+        by: 'css selector'
+        value : '#bulk_form>div:nth-child(2)>form>table>tbody>tr:nth-child(3)>td.name>input'
+    third_start_date:
+        by: 'css selector'
+        value: '#bulk_form>div:nth-child(2)>form>table>tbody>tr:nth-child(3)>td.name>div>input[id$="start_date_visible"]'
+    third_end_date:
+        by: 'css selector'
+        value: '#bulk_form>div:nth-child(2)>form>table>tbody>tr:nth-child(3)>td.name>div>input[id$="end_date_visible"]'
+    third_concept:
+        by: 'css selector'
+        value: '#bulk_form>div:nth-child(2)>form>table>tbody>tr:nth-child(3)>td:nth-child(2)>input'
+    third_tag:
+        by: 'css selector'
+        value: '#bulk_form>div:nth-child(2)>form>table>tbody>tr:nth-child(3)>td:nth-child(3)>textarea'
+    third_url:
+        by: 'css selector'
+        value: '#bulk_form>div:nth-child(2)>form>table>tbody>tr:nth-child(3)>td:nth-child(4)>input'
+    third_preview:
+        by: 'css selector'
+        value: '#bulk_form>div:nth-child(2)>form>table>tbody>tr:nth-child(3)>.advertiser_url>.preview>img'
+    third_remove:
+        by: 'css selector'
+        value: '#bulk_form>div:nth-child(2)>form>table>tbody>tr:nth-child(3)>.advertiser_url>.remove>img'
+    creative_forms:
+        by: 'id'
+        value: 'creative_forms'
+    success_message: 'Creatives successfully saved. Creative Registration status may take up to 48 hours to update.'

@@ -1,0 +1,26 @@
+#default by: 'id'
+search_page:
+    url: '/'
+    click_creative:
+        value: 'drop3'
+    click_campaign:
+        by: 'id'
+        value: 'drop1'
+    click_first_campaign_link:
+        by: 'css selector'
+        value: '#ql_campaigns > ul > li >a'
+    click_audience:
+        value: 'drop4'
+    click_inventory:
+        value: 'drop6'
+    activity_tab:
+        value: 'drop5'
+    logo:
+        by: 'css selector'
+        value: '#logo>img'
+    search_box:
+        by: 'css selector'
+        value: '#search-bar-2 > form > #q'
+    search_icon:
+        by: 'css selector'
+        value: '#search-bar-2 > form > #q ~ input'

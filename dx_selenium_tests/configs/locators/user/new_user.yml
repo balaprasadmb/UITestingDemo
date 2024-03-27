@@ -1,0 +1,32 @@
+#default by: 'id'
+new_user:
+    url: 'users/new'
+    email:
+        value: 'user_email'
+    organization_loc:
+        value: 'user_organization_id'
+    add_user_role_button:
+        by: 'css selector'
+        value: 'input.add'
+    organization_loc_role:
+        by: 'css selector'
+        value: 'select[id$="_scope_id"]'
+    organization_role:
+        by: 'css selector'
+        value: 'select[id$="_auth_role_id"]'
+    user_submit:
+        value: 'user_submit'
+    roles:
+        assistant_campaign_manager: 'Assistant Campaign Manager'
+        audience_manager: 'Audience Manager'
+        campaign_manager: 'Campaign Manager'
+        inventory_manager: 'Inventory Manager'
+        organization_administrator: 'Organization Administrator'
+        planner: 'Planner'
+        read_only_user: 'Read Only User'
+        report_user: 'Report User'
+        support_user: 'Support User'
+        user_administrator: 'User Administrator'
+    organization: 'DataXu Managed Services'
+    duplicate_email_error: 'Email has already been taken'
+    success_message: 'New User Account registered successfully.'

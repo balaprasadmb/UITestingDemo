@@ -1,0 +1,46 @@
+#default by: 'id'
+edit_campaign:
+    common: !include create_campaign.yml
+    bulk_available_activities:
+        by: 'css selector'
+        value: '#bulk_available_activities>option'
+    add_pixel:
+        by: 'css selector'
+        value: '.ui-dialog-buttonpane > button > span'
+    tactic_name:
+        value: '#campaign_tactics_attributes_0_name'
+    tactic_name_second:
+        value: '#campaign_tactics_attributes_1_name'
+    custom_field:
+        value: '#campaign_tactics_attributes_0_name_custom'
+    tactics_budget:
+        value: 'campaign_tactics_attributes_0_budget'
+    tactics_budget_second:
+        value: '#campaign_tactics_attributes_1_budget'
+    tactics_impression:
+        by: 'css selector'
+        value: 'campaign_tactics_attributes_0_impression_cap'
+    remove_tactics:
+        by: 'css selector'
+        value: '#tactics_groups > div > div:nth-child(4) > img'
+    external_id_source:
+        value: 'campaign_external_ids_attributes_0_source'
+    external_id_value:
+        value: 'campaign_external_ids_attributes_0_external_id'
+    select_base_lang_targeting:
+        value: 'campaign_language_source'
+    file_label:
+        by: 'css selector'
+        value: '.file_label'
+    geofenced_available:
+        value: 'geohash_groups_all'
+    geofenced_applied:
+        value: 'geohash_groups_selected'
+    geofenced_move_selected_country:
+        value: 'mv_sel_geohash_groups'
+    geofenced_remove_selected_country:
+        value: 'rm_sel_geohash_groups'
+    geofenced_move_all_selected_country:
+        value: 'mv_all_sel_geohash_groups'
+    geofenced_remove_all_selected_country:
+        value: 'rm_all_sel_geohash_groups'

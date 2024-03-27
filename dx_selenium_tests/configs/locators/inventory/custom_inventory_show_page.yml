@@ -1,0 +1,10 @@
+#default by: 'id'
+custom_inventory_show_page:
+    custom_inventory_link:
+        by: 'css selector'
+        value: '.headBot > p > a'
+    edit_custom_inventory_button:
+        by: 'css selector'
+        value: '.edit.button-to'
+    custom_inventory_show_page_contents: ['Inventory Details', 'Inventory and Tags']
+    custom_inventory_show_page_elements: ['custom_inventory_link', 'edit_custom_inventory_button']

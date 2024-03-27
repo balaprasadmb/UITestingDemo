@@ -1,0 +1,66 @@
+agency_details_page:
+    agency_list_page_link:
+        by: 'css selector'
+        value: '.headBot>p>a'
+    agency_group_link:
+        by: 'css selector'
+        value: '.cols3>a'
+    advertiser_list:
+        by: 'css selector'
+        value: '.cols3>ul>li>a'
+    add_advertiser_button:
+        by: 'css selector'
+        value: '.add.button'
+    edit_details_button:
+        by: 'css selector'
+        value: '.button_to>div>input'
+    details_section:
+        value: 'details'
+    currencies_section:
+        value: 'currencies'
+    settings_section:
+        value: 'settings'
+    add_on_cost_section:
+        value: 'add_on_costs'
+    rate_card_section:
+        value: 'segment_rates'
+    licenses_section:
+        value: 'licenses'
+    private_inventory_section:
+        value: 'inventories'
+    seats_section:
+        value: 'seats'
+    details_section_elements:
+        organization_type:
+            by: 'css selector'
+            value: '#details_content > div:nth-child(1) > div > strong'
+        organization_name:
+            by: 'css selector'
+            value: '#details_content > div:nth-child(2) > div:nth-child(1) > strong'
+        email:
+            by: 'css selector'
+            value: '#details_content > div:nth-child(2) > div:nth-child(2) > strong'
+        agency_group: 
+            by: 'css selector'
+            value: '#details_content > div:nth-child(3) > div:nth-child(1) > strong'
+        advertiser:
+            by: 'css selector'
+            value: '#details_content > div:nth-child(3) > div:nth-child(2) > strong'
+    cogs_value:
+        by: 'css selector'
+        value: '.cogs'
+    margin_value:
+        by: 'css selector'
+        value: '.margin'
+    add_on_cost_rate:
+        by: 'css selector'
+        value: '.cols1.aoc_value.rgt.break-word'
+    add_on_cost_name:
+        by: 'css selector'
+        value: '.cols3.aoc_name.break-word'
+    seat_content:
+        by: 'css selector'
+        value: 'tr > td:nth-child(2) > div'
+    success_message:
+        organization_name:
+            create_new_agency: 'Agency {0} was successfully created.'

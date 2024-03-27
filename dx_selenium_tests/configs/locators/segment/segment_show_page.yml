@@ -1,0 +1,22 @@
+#default by: 'id'
+segment_show_page:
+    add_pixel_activity_button:
+        by: 'css selector'
+        value: '.add.ajax_dialog'
+    edit_link:
+        by: 'css selector'
+        value: '.headBot > p > a:nth-child(1)'
+    view_all_link:
+        by: 'css selector'
+        value: '.headBot > p > a:nth-child(2)'
+    see_all_pixels_link:
+        by: 'css selector'
+        value: '.cols6 > h5 > a'
+    shared_organization_name:
+        by: 'css selector'
+        value: '.expandable > li > strong'
+    segment_creation_success_message: "Successfully created segment '{0}'."
+    segment_update_message: "Successfully updated segment '{0}'."
+    segment_show_page_heading: "Segment: {0}"
+    segment_show_page_contents: ['Advertiser', 'Expiration', 'Activity Threshold', 'Shared', 'Segment Size', 'Last Fired On', 'Including Audiences']
+    segment_show_page_elements: ['edit_link', 'view_all_link', 'see_all_pixels_link', 'add_pixel_activity_button']

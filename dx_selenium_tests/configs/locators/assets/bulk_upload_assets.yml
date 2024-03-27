@@ -1,0 +1,15 @@
+#default by: 'id'
+upload_assets:
+    url: 'advertisers/161/assets/batch_upload'
+    assets_file:
+        value: 'assets_asset_file'
+    more_assets:
+        value: 'more_assets'
+    upload_assets:
+        by: 'css selector'
+        value: '#more_assets~p>input'
+    generate_creatives:
+        value: 'generate_creatives'
+    use_creatives:
+        by: 'link text'
+        value: 'use creatives instead'

@@ -1,0 +1,8 @@
+#default by: 'id'
+deal_inventory_show_page:
+    deals_link:
+        by: 'css selector'
+        value: '.headBot > p > a'
+    edit_deal_button:
+        by: 'css selector'
+        value: '.edit.button-to'

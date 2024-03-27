@@ -1,0 +1,38 @@
+#default by: 'id'
+advertiser_list_page:
+    url: 'advertisers/'
+    search_box:
+        value: 'filter_advertisers'
+    new_advertiser:
+        by: 'css selector'
+        value: '.lnkbtn.add>span'
+    advertiser_name_link:
+        by: 'css selector'
+        value: '.name_link>a'
+    edit_icon:
+        by: 'css selector'
+        value: 'img[alt="Icon_edit"]'
+    delete_icon:
+        by: 'css selector'
+        value: 'img[alt="Icon_remove"]'
+    sort_name_column:
+        by: 'css selector'
+        value: '.sortable.name_link.header'
+    sort_status_column:
+        by: 'css selector'
+        value: '.sortable.status.header'
+    sort_agency_column:
+        by: 'css selector'
+        value: '.sortable.agency.header'
+    page_header:
+        by: 'css selector'
+        value: '.box.header-text'
+    success_message_locator:
+        by: 'css selector'
+        value: '.flash.notice'
+    advertiser_list:
+        by: 'css selector'
+        value: '.group'
+    success_message: "Advertiser ‘{0}’ was successfully created."
+    delete_message: "Advertiser '{0}' successfully deleted."
+    list_page_contents: ['search_box', 'new_advertiser', 'sort_name_column', 'sort_status_column', 'sort_agency_column']

@@ -1,0 +1,10 @@
+#default by: 'id'
+login_slides_show_page:
+    edit_link:
+        by: 'css selector'
+        value: '.headBot > p > a:nth-child(1)'
+    back_link:
+        by: 'css selector'
+        value: '.headBot > p > a:nth-child(2)'
+    login_slides_show_page_contents: ['Name', 'Enabled', 'Body']
+    login_slides_show_page_elements: ['edit_link', 'back_link']

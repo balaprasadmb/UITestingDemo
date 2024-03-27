@@ -1,0 +1,284 @@
+activity_name: test-activity-
+admin_link: Admin
+advertiser_name: regression_advertiser_7RN8SUXKJXJXF5Y
+agency_group: Adskom
+agency_group_currency_code:
+  ARS: '43'
+  AUD: '51'
+  BGN: '46'
+  BRL: '5'
+  CAD: '4'
+  CHF: '39'
+  CLP: '44'
+  CNY: '52'
+  COP: '64'
+  CRC: '68'
+  CZK: '59'
+  DKK: '45'
+  EUR: '3'
+  GBP: '2'
+  GTQ: '65'
+  HKD: '53'
+  HUF: '69'
+  IDR: '61'
+  INR: '54'
+  JPY: '55'
+  KRW: '60'
+  MOP: '73'
+  MXN: '42'
+  MYR: '63'
+  NIO: '66'
+  NOK: '47'
+  NZD: '57'
+  PAB: '67'
+  PHP: '62'
+  PLN: '6'
+  RON: '40'
+  RSD: '49'
+  RUB: '50'
+  SEK: '48'
+  SGD: '56'
+  THB: '71'
+  TRY: '41'
+  TWD: '72'
+  UAH: '58'
+  USD: '1'
+  VND: '70'
+agency_group_link: Agency Groups
+agency_group_name: regression_agency_group_
+agency_name: regression_agency_
+allocated_budget_percent: '10'
+alphanumeric_value: a1b2c3
+audience_name: test-audience-
+budget: '5000'
+channel_mobile: Mobile
+channel_online: Online
+channel_video: Video
+configure_seat_name:
+- Google Adx
+- AppNexus
+- Google Content Network
+- Adap.tv
+- SpotXchange
+- Tremor
+- Facebook RTB
+- Yahoo
+creative_concept_name: Concept_
+creative_name: Creative_
+currency_list_dropdown:
+- United States Dollars (USD)
+- Euros (EUR)
+- British Pounds (GBP)
+- Argentine Pesos (ARS)
+- Australian Dollars (AUD)
+- Brazilian Reals (BRL)
+- Bulgarian Levs (BGN)
+- Canadian Dollars (CAD)
+- Chilean Pesos (CLP)
+- Chinese Renminbi Yuans (CNY)
+- Colombian Pesos (COP)
+- "Costa Rican Col\xF3ns"
+- Czech Korunas (CZK)
+- Danish Krones (DKK)
+- Guatemalan Quetzals (GTQ)
+- Hong Kong Dollars (HKD)
+- Hungarian Forints (HUF)
+- Indian Rupees (INR)
+- Indonesian Rupiahs (IDR)
+- Japanese Yens (JPY)
+- Macanese Patacas (MOP)
+- Malaysian Ringgits (MYR)
+- Mexican Pesos (MXN)
+- New Taiwan Dollars (TWD)
+- New Zealand Dollars (NZD)
+- "Nicaraguan C\xF3rdobas (NIO)"
+- Norwegian Krones (NOK)
+- Panamanian Balboas (PAB)
+- Philippine Pesos (PHP)
+- "Polish Z\u0142oties (PLN)"
+- Romanian Leus (RON)
+- Russian Rubles (RUB)
+- Serbian Dinars (RSD)
+- Singapore Dollars (SGD)
+- South Korean Wons (KRW)
+- Swedish Kronas (SEK)
+- Swiss Francs (CHF)
+- Thai Bahts (THB)
+- Turkish Liras (TRY)
+- Ukrainian Hryvnia (UAH)
+- "Vietnamese \u0110\u1ED3ngs (VND)"
+deal_cpm: '23.52'
+deal_description: Test Deal Description
+deal_name: test-deal -
+default_setting_element:
+  cogs: cogs_textbox
+  margin: margin_textbox
+default_setting_locator:
+  cogs: cogs_inherited_checkbox
+  margin: margin_inherited_checkbox
+dxas_value: "\u20AC0.3991095"
+dxas_video: DXAS-VIDEO-01
+fifth_channel: Education
+first_channel: Arts & Entertainment
+flight_bid: '2'
+flight_budget: '100'
+flight_day_cap: '50'
+flight_type_standard_exchange: Standard Exchange
+flight_type_tracking: Tracking
+four_len_value: '1903'
+fourth_channel: Careers
+frequency_cap: '12'
+geofenced_group_name: test-group-
+html_tag: <html><body></body></html>
+impression_cap: '10'
+input_end_date: 11/12/2017
+input_start_date: 11/12/2014
+insight_element:
+- frequency
+- consideration
+- retargeting
+- index
+invenotry_supplier_label_list:
+- Google Adx
+- Yahoo
+- PubMatic
+- Rubicon
+- OpenX
+- AppNexus
+- Google Content Network
+- Nexage
+- Adap.tv
+- PulsePoint
+- SpotXchange
+- Other
+- Where.com
+- BrightRoll
+- MoPub
+- LiveRail
+- Facebook
+- Index Exchange
+- Improve Digital
+- AdScale
+- Tremor
+- adConductor
+- AdEasy
+- Admeta
+- Adskom
+- AOL
+- Between
+- Centro Brand Exchange
+- Fyber
+- Sovrn
+- GumGum
+- Ibillboard
+- Republer
+- Smartadserver
+- Switch Concepts
+- Sonobi
+- Zedo
+- Smaato
+- Stickyads
+- Geniee
+- Adform
+- Admax
+- Adriver
+- Inneractive
+- Mads
+- Mobfox
+- NetSprint
+- Scaleout
+- Wordpress
+- Xrost
+- YieldLab
+- YieldPartners
+- Liveintent
+- YieldOne
+- YieldOne Innity
+inventory_list:
+- adConductor
+- AdEasy
+- Admeta
+inventory_names_with_media_type:
+  Linear Video: Video_Inventory-
+  Mobile: Mobile_Inventory-
+  Online: Online_Inventory-
+limit_hundread: '119'
+limit_ninty_lacs: '9010000'
+limit_ten: '19'
+limit_ten_thousand: '11001'
+media_plan: test-media-plan-
+metrocodes1: 519 Charleston SC
+negative_value: '-50'
+new_advertiser_name: 21st Century
+new_campaign_budget: '10000'
+new_campaign_cogs: '1'
+new_campaign_cpa: '2.5'
+new_campaign_cpm: '4.0'
+new_inventory_list:
+- AdScale
+- Tremor
+- adConductor
+- Admeta
+- AOL
+- Adskom
+- Centro Brand Exchange
+- Ibillboard
+- Smartadserver
+- Switch Concepts
+- Fyber
+- AdEasy
+- Between
+- Republer
+- Sonobi
+- Zedo
+- Smaato
+number_name: '1903911'
+password: P@22w0rd
+postal_code_name: postal-codes-
+second_channel: Automotive
+segment_name: test-segment-
+select_value_false: Flashless
+select_value_true: Flash
+special_char: '!@#$%'
+strings: abcdef
+tactic_option_optimized: Optimized
+tactic_option_retargeting: Retargeting
+tactics: Retargeting
+tactics_name: tactics-
+test_advertiser_name: 3M_Dataxu Internal
+test_campaign_name: test-campaign-
+test_flight_name: test-flight-
+third_channel: Business
+uncheck_inventory_list:
+- Google Adx
+- Yahoo
+- PubMatic
+- Rubicon
+updated_gm_inventory_name: Update_GM_Inventory-
+user_by_role:
+  campaign_manager:
+    user_name: dx_campaign@data.net
+    user_password: P@22w0rd
+  campaign_manager_one_view:
+    user_name: dx_campaign_one_view@data.net
+    user_password: P@22w0rd
+  inventory_manager:
+    user_name: dx_inventory@data.net
+    user_password: P@22w0rd
+  organization_administrator:
+    user_name: dx_organization_admin@data.net
+    user_password: P@22w0rd
+  sys_admin_one_view:
+    user_name: dx_sys_admin_one_view@data.net
+    user_password: P@22w0rd
+  system_level_organization_administrator_one:
+    user_name: dx_agency@data.net
+    user_password: P@22w0rd
+  system_level_organization_administrator_three:
+    user_name: dx_advertiser@data.net
+    user_password: P@22w0rd
+  system_level_organization_administrator_two:
+    user_name: dx_agency_group@data.net
+    user_password: P@22w0rd
+username: dx_admin@data.net
+value: '9'

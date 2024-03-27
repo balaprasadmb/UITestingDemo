@@ -1,0 +1,5 @@
+#default by: 'id'
+user_show_page:
+    edit_link:
+        by: 'link text'
+        value: 'Edit'

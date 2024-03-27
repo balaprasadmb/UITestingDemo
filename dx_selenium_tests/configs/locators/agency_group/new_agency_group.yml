@@ -1,0 +1,219 @@
+#default by: 'id'
+new_agency_group:
+    url: 'agency_groups/new/'
+    agency_group_name:
+        value : 'agency_group_name'
+    email:
+        value: 'agency_group_organization_attributes_email'
+    contact_name:
+        value: 'agency_group_organization_attributes_contact_name'
+    currency:
+        value: 'agency_group_organization_attributes_currency_id'
+    select_all_currency:
+        value: 'select_all'
+    cogs_inherited_value_checkbox:
+       value: 'agency_group_organization_attributes_cogs_inherited'
+    margin_inherited_value_checkbox:
+       value: 'agency_group_organization_attributes_margin_inherited'
+    cogs_inherited_value_textbox:
+       value: 'agency_group_organization_attributes_cogs'
+    margin_inherited_value_textbox:
+       value: 'agency_group_organization_attributes_margin'
+    rate_card:
+       value: 'agency_group_rate_card'
+    new_add_on_cost:
+       value: 'new_add_on_cost'
+    add_on_cost_fee_type:
+       by: 'css selector'
+       value: '.aoc_fee_type > select'
+    add_on_cost_value:
+       by: 'css selector'
+       value: '.aoc_value > input'
+    add_on_cost_name:
+       by: 'css selector'
+       value: '.aoc_name > input'
+    submit_button:
+       value: 'agency_group_submit'
+    cancel_button:
+       by: 'css selector'
+       value: 'input[type="button"][value="Cancel"]'
+    inherit_licensing_checkbox:
+       value: 'inherit_licensing'
+    cost_model_type:
+       value: 'agency_group_organization_attributes_campaign_cost_model_type_ids_1'
+    add_on_cost_billable_checkbox:
+       by: 'css selector'
+       value: '.aoc_is_billable > input[type="checkbox"]'
+    add_on_cost_marketplace_checkbox:
+       by: 'css selector'
+       value: '.aoc_is_marketplace > input[type="checkbox"]'
+    online_media_type_checkbox:
+       online:
+           by: 'id'
+           value: 'agency_group_organization_attributes_online_enabled'
+       mobile:
+           by: 'id'
+           value: 'agency_group_organization_attributes_mobile_enabled'
+       video:
+           by: 'id'
+           value: 'agency_group_organization_attributes_video_enabled'
+    select_all_inventories:
+       value: 'select_all_inventories'
+    geo_targeting_checkbox:
+       value: 'agency_group_organization_attributes_global_geo_targeting'
+    insights:
+       frequency:
+           by: 'id'
+           value: 'agency_group_organization_attributes_aag_frequency_impact'
+       consideration:
+           by: 'id'
+           value: 'agency_group_organization_attributes_aag_consideration_period'
+       retargeting:
+           by: 'id'
+           value: 'agency_group_organization_attributes_aag_retarget_effect'
+       index:
+           by: 'id'
+           value: 'agency_group_organization_attributes_aag_best_metrocodes_index'
+    add_on_cost_dataxu_controlled_checkbox:
+       by: 'css selector'
+       value: '.aoc_is_locked > input[type="checkbox"]'
+    add_on_cost_channel:
+       by: 'css selector'
+       value: '.aoc_channel > select'
+    remove_add_on_cost:
+       by: 'css selector'
+       value: '.remove_add_on_cost'
+    add_on_cost_modified_pop_up:
+       pop_up:
+           by: 'css selector' 
+           value: '#add-on-costs-modified-dialog-confirm'
+       accept: 
+           by: 'css selector'
+           value: '#add-on-costs-modified-dialog-confirm ~ div > button:nth-child(2)'
+       cancel:
+           by: 'css selector'
+           value: '#add-on-costs-modified-dialog-confirm ~ div > button:nth-child(1)'
+    organization_type:
+           by: 'css selector'
+           value: 'select[id="organization_type"][disabled="disabled"]'
+    attributes:
+         organization_name: ''
+         email: ''
+         contact_name: ''
+         add_on_cost_value: ''
+         add_on_cost_name: ''
+         rate_card: ''
+    success_message:    
+        organization_name:
+            create_new_agency_group: 'Agency group "{0}" was successfully created.'
+    blank_message:
+        organization_name: "Name can't be blank"
+        rate_card: 'Currency was changed without uploading a new rate card.'
+        add_on_cost_value: 'Organization add on costs value is not a number'
+        add_on_cost_name: "Organization add on costs name can't be blank"
+    special_character_message:
+        contact_name: 'Organization contact name cannot contain special characters'
+        email: 'Organization email cannot contain special characters'
+        add_on_cost_name: "Organization add on costs name cannot contain the following characters: % $ < > & ; * ' \" ! @ ? "
+        cogs_special_char: 'Organization cogs is not a number'
+        margin_special_char: 'Organization margin is not a number'
+    html_tag:
+        organization_name: 'Name is invalid'
+        email: 'Organization email cannot contain special characters'
+        contact_name: 'Organization contact name cannot contain special characters'    
+    long_char:
+        organization_name: 'Name is too long (maximum is 255 characters)'
+        email: 'Organization email is too long (maximum is 255 characters)'
+        contact_name: 'Organization contact name is too long (maximum is 255 characters)'
+        add_on_cost_name: 'Organization add on costs name is too long (maximum is 255 characters)'
+        add_on_cost_value: 'Organization add on costs value Value must be less than or equal to 100 USD. You have entered ${0}.0'
+    negative_value:
+        add_on_cost_value: 'Organization add on costs value must be greater than or equal to 0.0'
+        cogs: 'Organization cogs must be greater than or equal to 0'
+        margin_negative: 'Organization margin must be greater than or equal to 0'
+    different_currency:
+        rate_card: 'must match the organization currency'
+    error_message:
+       cogs_more_than_10: 'Organization cogs Value must be less than or equal to 10 USD. You have entered ${0}.0'
+       margin_more_than_100: 'Organization margin must be less than 100'
+       cogs_alphnumeric: 'Organization cogs is not a number'
+       margin_alphanumeric: 'Organization margin is not a number'
+       rate_card_invalid_file: "Rate card '.py' files are not supported."
+       duplicate_organization_name: 'Name {0} already exists for agency group.'
+       invalid_email: 'Organization email must be in a valid format.'
+    cogs_currency:
+        by: 'css selector'
+        value: '.currency_iso_code'
+    add_on_cost_section_headers:
+        name:
+            by: 'css selector'
+            value: 'label[for="agency_group_aoc_name"]'
+        cpm:
+            by: 'css selector'
+            value: 'label[for="agency_group_aoc_value"]'
+        billable:
+            by: 'css selector'
+            value: 'label[for="agency_group_aoc_is_billable"]'
+        channel:
+            by: 'css selector'
+            value: 'label[for="agency_group_channel"]'
+    add_on_cost_channel_dropdown: ["Exchange media - online", "Exchange media - mobile", "Exchange media - video", "Guaranteed media - online", "Guaranteed media - mobile", "Guaranteed media - video"]
+    agency_group_invenotry_supplier_label:
+        by: 'css selector'
+        value: '#inventory_suppliers > div:nth-child(1)> label'
+    configure_seats_pop_up:
+        pop-up:
+            by: 'css selector'
+            value: 'div[class*="ui-dialog ui-widget ui-widget-content ui-corner-all modal-dialog"][style*="display: block;"]'
+        inherit_checkbox:
+            by: 'css selector'
+            value: 'div[class*="ui-dialog ui-widget ui-widget-content ui-corner-all modal-dialog"][style*="display: block;"] > div:nth-child(2) > form > .group > .cols4 > .inherit_button_div > .first_seat_row'
+        override_checkbox:
+            by: 'css selector'
+            value: 'div[class*="ui-dialog ui-widget ui-widget-content ui-corner-all modal-dialog"][style*="display: block;"] > div:nth-child(2) > form > .group > .cols4 > .override_button_div > .first_seat_row'
+        seat_name:
+            by: 'css selector'
+            value: 'div[class*="ui-dialog ui-widget ui-widget-content ui-corner-all modal-dialog"][style*="display: block;"] > div:nth-child(2) > form > .credential_fields > .seat_container > div > div:nth-child(1) > input'
+        seat_id:
+            by: 'css selector'
+            value: 'div[class*="ui-dialog ui-widget ui-widget-content ui-corner-all modal-dialog"][style*="display: block;"] > div:nth-child(2) > form > .credential_fields > .seat_container > div > div:nth-child(2) > input'
+        seat_billable:
+            by: 'css selector'
+            value: 'div[class*="ui-dialog ui-widget ui-widget-content ui-corner-all modal-dialog"][style*="display: block;"] > div:nth-child(2) > form > .credential_fields > .seat_container > div > div:nth-child(3) > input ~ input'
+        ok_button:
+            by: 'css selector'
+            value: 'div[class*="ui-dialog ui-widget ui-widget-content ui-corner-all modal-dialog"][style*="display: block;"] > div:nth-child(3) > button[id *="ok_button"]'
+        cancel_button:
+            by: 'css selector'
+            value: 'div[class*="ui-dialog ui-widget ui-widget-content ui-corner-all modal-dialog"][style*="display: block;"] > div:nth-child(3) > button[id *="cancel_button"]'
+        add_seat:
+            by: 'css selector'
+            value: 'div[class*="ui-dialog ui-widget ui-widget-content ui-corner-all modal-dialog"][style*="display: block;"] > div:nth-child(2) > form > .cols2 > button'
+        remove_seat:
+            by: 'css selector'
+            value: 'div[class*="ui-dialog ui-widget ui-widget-content ui-corner-all modal-dialog"][style*="display: block;"] > div:nth-child(2) > form > .credential_fields > .seat_container > div > .remove_seat'
+        seat_content:
+            by: 'css selector'
+            value: 'tr > td:nth-child(2) >div>label'
+    edit_configure_seat:
+            by: 'css selector'
+            value: 'img[alt="Icon_edit"]'
+    available_inventory_label:
+           by: 'css selector'
+           value: 'label[for*="agency_group_organization_attributes_inventory_supplier_ids_"]'
+    error_message_locator: "#errorExplanation > ul> li:nth-child({0})"
+    euro_currency_checkbox:
+           value: 'agency_group_organization_attributes_currency_ids_3'
+    insight_list: [ 'Frequency Impact Report', 'Consideration Period Report', 'Retargeting Effectiveness Report', 'Index of Best Metrocodes']
+    online_disabled_checkbox:
+           by: 'css selector'
+           value: 'input[id="agency_group_organization_attributes_online_enabled"][disabled="disabled"]'
+    disabled_select_all_inventory_checkbox:
+           by: 'css selector'
+           value: 'input[id="select_all_inventories"][disabled="disabled"]'
+    green_tick:
+         by: 'css selector'
+         value: '.cols9>ul>li>img ~ input[value="{0}"]'
+    one_view_section:
+         by: 'css selector'
+         value: "div[id*='oneview']"

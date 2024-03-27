@@ -1,0 +1,18 @@
+#default by: 'id'
+login_slides_list_page:
+    new_login_slides_btn:
+        by: 'css selector'
+        value: '.lnkbtn.add'
+    gear_icon:
+        by: 'css selector'
+        value: 'tbody > tr:nth-child(1) > td:nth-child(3) > .icon > .gear_box'
+    first_login_slide_name:
+        by: 'css selector'
+        value: 'tbody > tr:nth-child(1) > td:nth-child(1) > a'
+    edit_link:
+        by: 'css selector'
+        value: '.gear_box_content> ol > li:nth-child(1) > a'
+    delete_link:
+        by: 'css selector'
+        value: '.gear_box_content> ol > li:nth-child(2) > a'
+    login_slides_list_page_contents: ['Name', 'Enabled', 'Actions']

@@ -1,0 +1,44 @@
+#default by: 'id'
+agency_edit:
+    common: !include new_agency.yml
+    segment_name:
+        by: 'css selector'
+        value: '#segment_rates > thead > tr > th:nth-child(1)'
+    external_id:
+        by: 'css selector'
+        value: '#segment_rates > thead > tr > th:nth-child(2)'
+    cost:
+        by: 'css selector'
+        value: '#segment_rates > thead > tr > th:nth-child(3)'
+    price:
+        by: 'css selector'
+        value: '#segment_rates > thead > tr > th:nth-child(4)'
+    inherited:
+        by: 'css selector'
+        value: '#segment_rates > thead > tr > th:nth-child(5)'
+    details_section:
+        value: 'organization_details'
+    currency_section:
+        value: 'currency'
+    default_settings_section:
+        value: 'default_settings'
+    add_on_cost_section:
+        value: 'organization_add_on_costs'
+    rate_card_section:
+        value: 'segment_rates'
+    configure_licensing_section:
+        value: 'organization_licensing'
+    configure_seat_section:
+        value: 'organization_seats'
+    agency_group:
+        by: 'css selector'
+        value: 'select[id="agency_group_id"][disabled="disabled"]'
+    invetory_locator:
+        by: 'css selector'
+        value: "input[data-inventory_supplier_name='{0}']"
+    success_message:
+        edit_agency: 'Agency {0} was successfully updated.'
+    disabled_currency_drop_down:
+        by: 'css selector'
+        value: "select[id='agency_organization_attributes_currency_id'][disabled='disabled']"
+    error_message_currency_other_than_contracted: 'Rate card currency line 2: Geographic,1.0,0.45,0.54,PLN must match the organization currency'

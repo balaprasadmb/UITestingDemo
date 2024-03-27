@@ -1,0 +1,13 @@
+#default by: 'id'
+new_creatives:
+    url: '/admin/advertisers/161/creatives/new'
+    bulk_edit_link:
+        value: 'bulk_view_link'
+    detailed_edit_link:
+        value: 'detailed_view_link'
+    bulk_upload_new_creatives:
+        by: 'css selector'
+        value: '#creative_forms>div:nth-child(2)>a:nth-child(1)>span'
+    bulk_upload_new_assets:
+        by: 'css selector'
+        value: '.headBot>a:nth-child(2)'

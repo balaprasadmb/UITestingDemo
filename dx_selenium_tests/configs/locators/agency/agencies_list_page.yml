@@ -1,0 +1,39 @@
+#default by: 'id'
+agencies_list_page:
+    url: 'agencies/'
+    new_agency_button:
+        by: 'link text'
+        value: 'New Agency'
+    search_filter_agency:
+        value: 'filter_agencies'
+    edit_icon:
+        by: 'css selector'
+        value: "a[title='Edit']"
+    delete_icon:
+        by: 'css selector'
+        value: "a[title='Delete']"
+    agency_name_locator:
+        by: 'css selector'
+        value: '.name_link>a'
+    agency_name_sort:
+        by: 'css selector'
+        value: '.sortable.name_link.header'
+    agency_contact_sort:
+        by: 'css selector'
+        value: '.sortable.contact.header'
+    agency_email_sort:
+        by: 'css selector'
+        value: '.sortable.email.header'
+    agency_group_sort:
+        by: 'css selector'
+        value: '.sortable.agency_group.header'
+    pick_agency_group:
+        value: 'agency_agency_group_id'
+    delete_success_message: 'was successfully deleted.'
+    success_message_locator:
+        by: 'css selector'
+        value: '.flash.notice'
+    invalid_search_message: 'No Agencies to browse.'
+    agency_link:
+        by: 'css selector'
+        value: '.name_link>a'

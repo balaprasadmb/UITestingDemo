@@ -1,0 +1,209 @@
+#default by: 'id'
+detailed_edit_creatives:
+    add_detailed_creative:
+        value: 'add_new_detail'
+    first_creative_link:
+        by: 'css selector'
+        value: '#creative_list>ol>li:nth-child(1)>a'
+    first_creative_name:
+        by : 'css selector'
+        value: '#detailed_form_fields>div:nth-child(1)>div>div>input[id$="_name"]'
+    first_concept:
+        by : 'css selector'
+        value: '#detailed_form_fields>div:nth-child(1)>div>div>input[id$="_concept"]'
+    first_size:
+        by : 'css selector'
+        value: '#detailed_form_fields>div:nth-child(1)>div>div>select[id$="_size"]'
+    first_size_width:
+        by : 'css selector'
+        value: '#detailed_form_fields>div:nth-child(1)>div>div>div>input[id$="_width_pixels"]'
+    first_size_height:
+        by : 'css selector'
+        value: '#detailed_form_fields>div:nth-child(1)>div>div>div>input[id$="_height_pixels"]'
+    first_ad_type:
+        by : 'css selector'
+        value: '#detailed_form_fields>div:nth-child(1)>div>div>select[id$="_creative_format_id"]'
+    first_ad_feature:
+        by : 'css selector'
+        value: '#detailed_form_fields>div:nth-child(1)>div>div>.creative_sub_select'
+    first_tag_type:
+        by : 'css selector'
+        value: '#detailed_form_fields>div:nth-child(1)>div>div>select[id$="_tag_type_id"]'
+    first_url:
+        by : 'css selector'
+        value: '#detailed_form_fields>div:nth-child(1)>div>div>input[id$="url"]'
+    first_offer_type:
+        by : 'css selector'
+        value: '#detailed_form_fields>div:nth-child(1)>div>div>select[id$="_offer_type_id"]'
+    first_additional:
+        by : 'css selector'
+        value: '#detailed_form_fields>div:nth-child(1)>div>div>textarea'
+    first_start_date:
+        by : 'css selector'
+        value: '#detailed_form_fields>div:nth-child(1)>div>div>div>input[id$="_start_date_visible"]'
+    first_end_date:
+        by : 'css selector'
+        value: '#detailed_form_fields>div:nth-child(1)>div>div>div>input[id$="_end_date_visible"]'
+    first_lang_targeting:
+        by : 'css selector'
+        value: '#detailed_form_fields>div:nth-child(1)>div>div>select[id$="language_id"]'
+    first_is_flash:
+        by : 'css selector'
+        value: '#detailed_form_fields>div:nth-child(1)>div>div>div>div>div>select'
+    first_select_vendor:
+        by : 'css selector'
+        value: '#detailed_form_fields>div:nth-child(1)>div>div>div>.vendors>div>div>div>select'
+    first_remove_vendor:
+        by : 'css selector'
+        value: '#detailed_form_fields>div:nth-child(1)>div>div>div>.vendors>div>div>div>img'
+    second_vendor:
+        by : 'css selector'
+        value: '#detailed_form_fields>div:nth-child(1)>div>div>div>.vendors>div>div>div>select'
+    remove_second_vendor:
+        by : 'css selector'
+        value: '#detailed_form_fields>div:nth-child(1)>div>div>div>.vendors>div>div>div>img'
+    first_new_vendor:
+        by : 'css selector'
+        value: '#detailed_form_fields>div:nth-child(1)>div>div>div>div>div>.new_ad_service_vendor'
+    first_placement:
+        by : 'css selector'
+        value: '#detailed_form_fields>div:nth-child(1)>div>div>div>div>div>select[id$="_position"]'
+    first_z_index:
+        by : 'css selector'
+        value: '#detailed_form_fields>div:nth-child(1)>div>div>div>div>div>.tiny'
+    first_external_id_source:
+        by : 'css selector'
+        value: '#detailed_form_fields>div:nth-child(1)>div>div>div>.externals>div>div>div>select'
+    first_external_id_value:
+        by : 'css selector'
+        value: '#detailed_form_fields>div:nth-child(1)>div>div>div>.externals>div>div>div>input'
+    first_remove_external_id:
+        by : 'css selector'
+        value: '#detailed_form_fields>div:nth-child(1)>div>div>div>.externals>div>div>div>img'
+    second_source:
+        by : 'css selector'
+        value: '#detailed_form_fields>div:nth-child(1)>div>div>div>.externals>div:nth-child(2)>div>div>select'
+    second_value:
+        by : 'css selector'
+        value: '#detailed_form_fields>div:nth-child(1)>div>div>div>.externals>div:nth-child(2)>div>div>input'
+    remove_second_external_id:
+        by : 'css selector'
+        value: '#detailed_form_fields>div:nth-child(1)>div>div>div>.externals>div:nth-child(2)>div>div>img'
+    first_new_external_id:
+        by : 'css selector'
+        value: '#detailed_form_fields>div:nth-child(1)>div>div>div>div>.add'
+    first_add_on_input:
+        by: 'css selector'
+        value: '#detailed_form_fields>div:nth-child(1)>div>div>div>div>div>.creative_add_ons_bucket>div>div>div>textarea'
+    first_add_on_select:
+        by: 'css selector'
+        value: '#detailed_form_fields>div:nth-child(1)>div>div>div>div>div>.creative_add_ons_bucket>div>div>div>div>select'
+    first_add_on_remove:
+        by: 'css selector'
+        value: '#detailed_form_fields>div:nth-child(1)>div>div>div>div>div>.creative_add_ons_bucket>div>div>div>div>img'
+    first_new_add_on:
+        by: 'css selector'
+        value: '#detailed_form_fields>div:nth-child(1)>div>div>div>div>div>.add_creative_add_on'
+    first_click_tracking:
+        by : 'css selector'
+        value: '#detailed_form_fields>div:nth-child(1)>.ad_tag_fields>div>input[id$="_tracking"]'
+    first_original_link:
+        by: 'css selector'
+        value: '#detailed_form_fields>div:nth-child(1)>div>div>div>strong>.original'
+    first_processed_link:
+        by: 'css selector'
+        value: '#detailed_form_fields>div:nth-child(1)>div>div>div>strong>.processed'
+    first_secure_link:
+        by: 'css selector'
+        value: '#detailed_form_fields>div:nth-child(1)>div>div>div>strong>.secure'
+    first_secure_processed_link:
+        by: 'css selector'
+        value: '#detailed_form_fields>div:nth-child(1)>div>div>div>strong>.secure_processed'
+    first_edit_tags:
+        by: 'css selector'
+        value: '#detailed_form_fields>div:nth-child(1)>div>div>div>.original_ad_tag_snippet'
+    first_processed_tags:
+        by: 'css selector'
+        value: '#detailed_form_fields>div:nth-child(1)>div>div>div>.processed_tag'
+    first_secure_tags:
+        by: 'css selector'
+        value: '#detailed_form_fields>div:nth-child(1)>div>div>div>.secure_tag'
+    first_secure_processed_tags:
+        by: 'css selector'
+        value: '#detailed_form_fields>div:nth-child(1)>div>div>div>.secure_processed_tag'
+    first_cancel:
+        by: 'css selector'
+        value: '#detailed_form_fields>div:nth-child(1)>div>.buttons>.cancel_new_creatives'
+    first_validate:
+        by: 'css selector'
+        value: '#detailed_form_fields>div:nth-child(1)>div>.buttons>.validate'
+    first_preview:
+        by: 'css selector'
+        value: '#detailed_form_fields>div:nth-child(1)>div>.buttons>.preview'
+    first_save:
+        by: 'css selector'
+        value: '#detailed_form_fields>div:nth-child(1)>div>.buttons>.primary'
+    detailed_edit:
+        by: 'css selector'
+        value: '#detailed_view_link'
+    creative_form:
+        value: 'creative_forms'
+    first_creative_textbox:
+        value: 'creatives_c1_name'
+    save_bulk_creative_button:
+        value: 'save_bulk_button'
+    detailed_form:
+        by: 'id'
+        value: 'detailed_form'
+    source:
+        by: 'id'
+        value: 'source'
+    errors:
+        by: 'css'
+        value: '.detail_errors'
+    details_view:
+        by: 'id'
+        value: 'details_view'
+    click_tracking_status:
+        by: 'css selector'
+        value: '#ad_tag_snippet_content>div>div'
+    tags_section:
+        by: 'css selector'
+        value: '.read_only_textarea>p'
+    page_contents:
+        1: 'Creatives can be assigned after they have been reviewed and validated.'
+        2: 'It is recommended that you leave creative dates undefined unless you have a specific use case for the setting'
+        3: '(e.g., automatically updating creative concepts mid-flight). The creative dates setting does not override flight assignment;'
+        4: 'even with dates defined, creatives must still be assigned to an active flight in order for impressions to be served.'
+        5: 'Enabling language targeting for a creative will restrict the creative to display only in browsers or on sites with a matching language.'
+        6: 'This will limit distribution. Always include an untargeted creative as a default.'
+        7: 'For expandable creatives, z-Index configures in which layer of the creative the OBA icon will appear.'
+        8: 'Additional HTML and Javascript can be appended or prepended to your creative markup.  The [[[CACHEBUSTER]]] macro can be used in this markup.'
+        9: 'DataXu automatically inserts cache-busting and click-tracking macros for ad servers. These will only be shown when previewing your creative.'
+        10: 'RMX flights will not run with secure creative tags. Please ensure you have a non-secure creative tag available for any RMX flights.'
+    blank_messages:
+        name: 'Name is invalid'
+        concept: "Concept can't be blank"
+        width: "Width Pixels can't be blank"
+        height: "Height Pixels can't be blank"
+        flash: 'Is Flash is not included in the list'
+        url: 'Domains Creative must have one "Advertiser domain"'
+        tags: "Secure Tag can't be blank"
+        ad_tag: "Ad Tag Snippet can't be blank"
+    special_chars:
+        z_index: 'Z Index is not a number'
+        url: 'Domains URL is invalid:'
+    over_limit:
+        name: 'Name is too long (maximum is 255 characters)'
+        concept: 'Concept is too long (maximum is 200 characters)'
+    validation:
+        width: 'Width Pixels is not a number'
+        height: 'Height Pixels is not a number'
+        external_id: 'Base External IDs must be unique within a source.'
+        ad_tag: "ad tag type can't be blank."
+        concept: "Concept is invalid"
+    success_message: 'Creatives successfully saved. Creative Registration status may take up to 48 hours to update.'
+    ad_type: ['Banner', 'Linear Video', 'Rich Media']
+    banner_features: ['In Page Flash', 'HTML5 or Static']
+    video_features: ['Pre Roll', 'Mid Roll', 'Post Roll', 'Interactive Pre Roll']
+    rich_media_features: ['Unknown', 'Expanding', 'Flash in Flash', 'Floating', 'Peel Down', 'Special', 'Widget Ads']

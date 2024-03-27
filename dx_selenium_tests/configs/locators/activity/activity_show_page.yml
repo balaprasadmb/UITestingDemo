@@ -1,0 +1,23 @@
+#default by: 'id'
+activity_show_page:
+    activities_link:
+        by: 'css selector'
+        value: '.headBot > p > a:nth-child(1)'
+    edit_link:
+        by: 'css selector'
+        value: '.headBot>p>a:nth-child(2)'
+    activity_graph:
+        by: 'css selector'
+        value: '.cols4 > img'
+    activity_name_title:
+        by: 'css selector'
+        value: '.headTop > h1'
+    pixel_tag:
+        by: 'css selector'
+        value: '.contain_cols12 > div:nth-child(3)'
+    activity_show_page_locator:
+        by: 'css selector'
+        value: '.contain_cols12'
+    activity_show_page_contents: ['Activity Type', 'Secure', 'RMX', 'Shared', 'DataXu pixel ID', 'Last Fired On', '3rd Party Tag Server', 'Pixel Tag', 'Including Segments']
+    activity_show_page_elements: ['activities_link', 'edit_link', 'activity_graph']
+    update_success_message: "Activity ‘{0}’ was successfully updated."

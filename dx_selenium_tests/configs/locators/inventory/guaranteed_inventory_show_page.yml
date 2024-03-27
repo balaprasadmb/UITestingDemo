@@ -1,0 +1,13 @@
+#default by: 'id'
+guaranteed_inventory_show_page:
+    advertiser_link:
+        by: 'css selector'
+        value: '.headBot > p > a'
+    default_creative_name:
+        by: 'css selector'
+        value: '.cols8 > a'
+    edit_guaranteed_media_button:
+        by: 'css selector'
+        value: '.edit.button-to'
+    guaranteed_inventory_show_page_contents: ['Inventory Details', 'Inventory and Tags']
+    guaranteed_inventory_show_page_elements: ['advertiser_link', 'edit_guaranteed_media_button']

@@ -1,0 +1,116 @@
+#default by: 'id'
+edit_creatives:
+    back_to_creatives_list:
+        by: 'css selector'
+        value: '.headBot>p>a:nth-child(1)'
+    back_to_all_creatives:
+        by: 'css selector'
+        value: '.headBot>p>a:nth-child(2)'
+    name:
+        value: 'creative_name'
+    concept:
+        value: 'creative_concept'
+    size:
+        value: 'creative_size'
+    type:
+        value: 'creative_creative_format_id'
+    feature:
+        value: 'creative_creative_sub_format_id'
+    url:
+        value: 'creative_primary_url'
+    offer:
+        value: 'creative_offer_type_id'
+    additional_urls:
+        value: 'creative_additional_urls'
+    lang_targeting:
+        value: 'creative_language_id'
+    start_date:
+        value: 'creative_start_date_visible'
+    end_date:
+        value: 'creative_end_date_visible'
+    add_server_button:
+        by: 'css selector'
+        value: '.add.ad_service_vendor'
+    add_servers:
+        value: 'creative_creative_ad_service_vendors_attributes_1_ad_service_vendor_id'
+    remove_server:
+        by: 'css selector'
+        value: '.remove_vendor'
+    is_flash:
+        value: 'creative_is_flash'
+    placement:
+        value: 'creative_position'
+    z_index:
+        value: 'creative_z_index'
+    add_external_id:
+        by: 'css selector'
+        value: '.add.external_id'
+    exteranl_id_source:
+        value: 'creative_external_ids_attributes_0_source'
+    exteranl_id:
+        value: 'creative_creative_external_ids_attributes_0_external_id'
+    remove_exteranl_id:
+        by: 'css selector'
+        value: '.external_id_box>div:nth-child(1)>div:nth-child(3)>div>img'
+    second_source:
+        value: 'creative_external_ids_attributes_1_source'
+    second_exteranl_id:
+        value: 'creative_creative_external_ids_attributes_1_external_id'
+    remove_second_exteranl_id:
+        by: 'css selector'
+        value: '.external_id_box>div:nth-child(2)>div:nth-child(3)>div>img'
+    new_add_on_button:
+        by: 'css selector'
+        value: '.add_creative_add_on.button.add'
+    creative_add_on:
+        value: 'creative_creative_add_ons_attributes_0_snippet'
+    add_on_type:
+        value: 'creative_creative_add_ons_attributes_0_creative_add_on_type'
+    remove_add_on:
+        value: 'campaign_campaign_activities_attributes_0_value'
+    landing_url:
+        value: 'creative_landing_url'
+    add_tracker_button:
+        value: 'add_third_party_macro'
+    tracker:
+        value: 'creative_third_party_macros_attributes_new_third_party_macro_macro_type'
+    tracker_value:
+        value: 'creative_third_party_macros_attributes_new_third_party_macro_macro'
+    remove_tracker:
+        by: 'css selector'
+        value: '.remove_third_party_macro'
+    click_tracking:
+        value: 'creative_use_click_tracking'
+    original:
+        value: 'original_tag_link'
+    processed:
+        value: 'processed_tag_link'
+    original:
+        value: 'secure_tag_link'
+    original:
+        value: 'secure_processed_tag_link'
+    present_tag:
+        by: 'css selector'
+        value: '.disabled'
+    original_tags:
+        value: 'creative_ad_tag_snippet'
+    processed_tags:
+        value: 'creative_processed_ad_tag_snippet'
+    secure_tags:
+        value: 'creative_secure_tag'
+    secure_processed_tags:
+        value: 'creative_secure_processed_tag'
+    cancel_button:
+        by: 'css selector'
+        value: 'input[value="Cancel"]'
+    preview_button:
+        value: 'creative_preview_button'
+    submit_button:
+        value: 'creative_submit'
+    update_form:
+        by: 'id'
+        value: 'form_root'
+    errors:
+        by: 'css'
+        value: '.error'
+    success_message: "Creative '{0}' was successfully updated and resubmitted for registration with exchanges if applicable."

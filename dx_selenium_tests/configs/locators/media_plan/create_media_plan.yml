@@ -1,0 +1,66 @@
+#default by: 'id'
+create_media_plan:
+    url: 'advertisers/2744/campaigns'#advertiser saloman
+    name:
+        value: 'media_plan_name'
+    start_date:
+        value: 'media_plan_start_at'
+    end_date:
+        value: 'media_plan_end_at'
+    budget:
+        value: 'media_plan_project_plan_budget'
+    currency:
+        by: 'css selector'
+        value: '#media_plan_currency_select>select'
+    attribution_model:
+        value: 'media_plan_performance_attribution_type_id'
+    add_row:
+        by: 'css selector'
+        value: '.add'
+    campaign_filter:
+        by: 'css selector'
+        value: '.search'
+    activity_pixel:
+        by: 'css selector'
+        value: '#media_plan_activities>div>div:nth-child(1)>select'
+    activity_filter:
+        by: 'css selector'
+        value: '#media_plan_activities>div>div:nth-child(2)>input'
+    value_type:
+        by: 'css selector'
+        value: '#media_plan_activities>div>div:nth-child(3)>select'
+    value:
+        by: 'css selector'
+        value: '#media_plan_activities>div>div:nth-child(4)>div>input'
+    delete_activity:
+        by: 'css selector'
+        value: '#media_plan_activities>div>div:nth-child(5)>a>img'
+    master_select:
+        by: 'css selector'
+        value: '.select_all'
+    last_click_input:
+        by: 'css selector'
+        value: '#lookback_windows_content>div:nth-child(2)>div:nth-child(2)>input'
+    last_click_select:
+        by: 'css selector'
+        value: '#lookback_windows_content>div:nth-child(2)>div:nth-child(3)>select'
+    last_view_input:
+        by: 'css selector'
+        value: '#lookback_windows_content>div:nth-child(3)>div:nth-child(2)>input'
+    last_view_select:
+        by: 'css selector'
+        value: '#lookback_windows_content>div:nth-child(3)>div:nth-child(3)>select'
+    cancel:
+        by: 'css selector'
+        value: '.buttons>input:nth-child(1)'
+    submit:
+        value: 'media_plan_submit'
+    edit:
+        by: 'css selector'
+        value: '.button_to>div>input'
+    show_page: 'Media Plans & Campaigns'
+    messages:
+        budget: 'Project plan budget is not a number'
+        end_date: 'End at is not a date'
+        activity_value: 'Media plan activities value is not a number'
+        success: 'Successfully created media plan.'

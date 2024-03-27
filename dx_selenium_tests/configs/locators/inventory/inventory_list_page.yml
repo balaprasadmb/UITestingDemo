@@ -1,0 +1,139 @@
+#default by: 'id'
+inventory_list_page:
+    guaranteed_inventory_tab:
+        value: 'guaranteed_inventories_tab > a'
+    custom_inventory_tab:
+        by: 'css selector'
+        value: '#custom_inventories_tab > a'
+    deal_inventory_tab:
+        by: 'css selector'
+        value: '#deal_inventories_tab > a'
+    advertiser_click:
+        by: 'css selector'
+        value: 'a.chzn-single'
+    advertiser_input:
+        by: 'css selector'
+        value: 'div.chzn-search>input'
+    guaranteed_inventory_filter:
+        value: 'guaranteed_inventory_table_filter'
+    new_guaranteed_inventory_button:
+        by: 'css selector'
+        value: '#guaranteed_inventory > div.add-button-row > a'
+    guaranteed_inventory_gear_icon:
+        by: 'css selector'
+        value: '#guaranteed_inventory_table > tbody > tr:nth-child(1) > .actions > span > img'
+    guaranteed_inventory_edit_link:
+        by: 'css selector'
+        value: '#guaranteed_inventory_table > tbody > tr:nth-child(1) > td:nth-child(5) > span > div > ol > li:nth-child(1) > a'
+    guaranteed_inventory_export_tags_link:
+        by: 'css selector'
+        value: '#guaranteed_inventory_table > tbody > tr:nth-child(1) > td:nth-child(5) > span > div > ol > li:nth-child(2) > a'
+    guaranteed_inventory_publishername_header:
+        by: 'css selector'
+        value: '#guaranteed_inventory_table > thead > tr > th:nth-child(1)'
+    guaranteed_inventory_placementname_header:
+        by: 'css selector'
+        value: '#guaranteed_inventory_table > thead > tr > th:nth-child(2)'
+    guaranteed_inventory_media_size_max_duration_header:
+        by: 'css selector'
+        value: '#guaranteed_inventory_table > thead > tr > th:nth-child(3)'
+    guaranteed_inventory_created_header:
+        by: 'css selector'
+        value: '#guaranteed_inventory_table > thead > tr > th:nth-child(4)'
+    guaranteed_inventory_pagination_next:
+        value: 'guaranteed_inventory_table_next'
+    guaranteed_inventory_pagination_previous:
+        value: 'guaranteed_inventory_table_previous'
+    guaranteed_inventory_pagination_dropdown:
+        by: 'css selector'
+        value: '.pagination > div#guaranteed_inventory_table_length > label > select'
+    guaranteed_inventory_publisher_name_link:
+        by: 'css selector'
+        value: '#guaranteed_inventory_table > tbody > tr:nth-child(1) > td:nth-child(1) > a'
+    guaranteed_inventory_placement_name_link:
+        by: 'css selector'
+        value: '#guaranteed_inventory_table > tbody > tr:nth-child(1) > td:nth-child(2) > a'
+    deal_inventory_filter:
+        value: 'deal_inventory_table_filter'
+    new_deal_button:
+        by: 'css selector'
+        value: '#deal_inventory > div.add-button-row > a'
+    deal_inventory_dealname_header:
+        by: 'css selector'
+        value: '#deal_inventory_table > thead > tr > th:nth-child(1)'
+    deal_inventory_dealid_header:
+        by: 'css selector'
+        value: '#deal_inventory_table > thead > tr > th:nth-child(2)'
+    deal_inventory_exchange_header:
+        by: 'css selector'
+        value: '#deal_inventory_table > thead > tr > th:nth-child(3)'
+    deal_inventory_cost_header:
+        by: 'css selector'
+        value: '#deal_inventory_table > thead > tr > th:nth-child(4)'
+    deal_inventory_deal_type_header:
+        by: 'css selector'
+        value: '#deal_inventory_table > thead > tr > th:nth-child(5)'
+    deal_inventory_dates_header:
+        by: 'css selector'
+        value: '#deal_inventory_table > thead > tr > th:nth-child(6)'
+    deal_inventory_gear_icon:
+        by: 'css selector'
+        value: '#deal_inventory_table > tbody > tr:nth-child(1) > .actions.nowrap > span > img'
+    deal_inventory_edit_link:
+        by: 'css selector'
+        value: '#deal_inventory_table > tbody > tr:nth-child(1) > td:nth-child(7) > span > div > ol > li > a'
+    deal_inventory_pagination_dropdown:
+        by: 'css selector'
+        value: '.pagination > div#deal_inventory_table_length > label > select'
+    deal_inventory_pagination_next:
+        value: 'deal_inventory_table_next'
+    deal_inventory_pagination_previous:
+        value: 'deal_inventory_table_previous'
+    custom_inventory_filter:
+        value: 'custom_inventory_table_filter'
+    new_custom_inventory_button:
+        by: 'css selector'
+        value: '#custom_inventory > .add-button-row > a'
+    custom_inventory_publishername_header:
+        by: 'css selector'
+        value: '#custom_inventory_table > thead > tr > th:nth-child(1)'
+    custom_inventory_placementname_header:
+        by: 'css selector'
+        value: '#custom_inventory_table > thead > tr > th:nth-child(2)'
+    custom_inventory_mediasizes_header:
+        by: 'css selector'
+        value: '#custom_inventory_table > thead > tr > th:nth-child(3)'
+    custom_inventory_created_header:
+        by: 'css selector'
+        value: '#custom_inventory_table > thead > tr > th:nth-child(4)'
+    custom_inventory_publisher_name_link:
+        by: 'css selector'
+        value: '#custom_inventory_table > tbody > tr:nth-child(1) > td:nth-child(1) > a'
+    custom_inventory_placement_name_link:
+        by: 'css selector'
+        value: '#custom_inventory_table > tbody > tr:nth-child(1) > td:nth-child(2) > a'
+    custom_inventory_gear_icon:
+        by: 'css selector'
+        value: '#custom_inventory_table > tbody > tr:nth-child(1) > .actions > span > img'
+    custom_inventory_edit_link:
+        by: 'css selector'
+        value: '#custom_inventory_table > tbody > tr:nth-child(1) > td:nth-child(5) > span > div > ol > li > a'
+    custom_inventory_export_tag_link:
+        by: 'link text'
+        value: 'Export Tags'
+    custom_inventory_pagination_dropdown:
+        by: 'css selector'
+        value: '.pagination > div#custom_inventory_table_length > label > select'
+    custom_inventory_pagination_next:
+        value: 'custom_inventory_table_next'
+    custom_inventory_pagination_previous:
+        value: 'custom_inventory_table_previous'
+    guaranteed_inventory_list_page_contents: ['Publisher Name', 'Placement Name', 'Media Size / Max. Duration', 'Created']
+    guaranteed_inventory_list_page_elements: ['new_guaranteed_inventory_button', 'deal_inventory_tab', 'custom_inventory_tab', 'advertiser_input', 'guaranteed_inventory_filter', 'guaranteed_inventory_pagination_next', 'guaranteed_inventory_pagination_previous', 'guaranteed_inventory_pagination_dropdown']
+    guaranteed_inventory_gear_icon_elements: ['guaranteed_inventory_edit_link', 'guaranteed_inventory_export_tags_link']
+    deals_inventory_list_page_contents: ['Deal Name', 'Deal ID', 'Exchange', 'Cost (CPM)', 'Deal Type', 'Dates']
+    deals_inventory_list_page_elements: ['deal_inventory_filter', 'new_deal_button', 'deal_inventory_pagination_dropdown', 'deal_inventory_pagination_next', 'deal_inventory_pagination_previous']
+    deal_inventory_gear_icon_elements: ['deal_inventory_edit_link']
+    custom_inventory_list_page_contents: ['Publisher Name', 'Placement Name', 'Media Sizes', 'Created']
+    custom_inventory_list_page_elements: ['custom_inventory_filter', 'new_custom_inventory_button', 'custom_inventory_publishername_header', 'custom_inventory_placementname_header', 'custom_inventory_mediasizes_header', 'custom_inventory_created_header', 'custom_inventory_pagination_dropdown', 'custom_inventory_pagination_next', 'custom_inventory_pagination_previous']
+    custom_inventory_gear_icon_elements: ['custom_inventory_edit_link']

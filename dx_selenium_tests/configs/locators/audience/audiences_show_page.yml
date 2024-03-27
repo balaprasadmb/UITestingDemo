@@ -1,0 +1,31 @@
+#default by: 'id'
+audiences_show_page:
+    audience_detail_section:
+        value: 'composite_segment_view'
+    edit_link:
+        by: 'css selector'
+        value: '.headBot > p > a:nth-child(1)'
+    view_all_link:
+        by: 'css selector'
+        value: '.headBot > p > a:nth-child(2)'
+    currency_dropdown:
+        value: 'currency_id'
+    avilable_audience_segment_table:
+        value: 'composite_segment_table'
+    advertiser_link:
+        by: 'css selector'
+        value: '.cols3 > a'
+    rate_card_value:
+        by: 'css selector'
+        value: 'tbody > tr:nth-child(1) > .price_formatted > .currency_value'
+    cost_value_after_currency_change:
+        by: 'css selector'
+        value: 'tbody > tr:nth-child(1) > .cost_formatted'
+    rate_card_value_after_currency_change:
+        by: 'css selector'
+        value: 'tbody > tr:nth-child(1) > .price_formatted' 
+    audience_show_page_elements: ['edit_link', 'view_all_link', 'advertiser_link', 'currency_dropdown', 'avilable_audience_segment_table']
+    audience_show_page_contents: ['Available Segments', 'Expression', 'Included Flights', 'Excluded Flights', 'Included Activities']
+    currency_checklist: ['£', 'GBP']
+    update_success_message: "Successfully updated segment '{0}'."
+    creation_sucess_message: "Successfully created segment '{0}'."

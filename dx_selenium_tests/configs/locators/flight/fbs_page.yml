@@ -1,0 +1,226 @@
+fbs_page:
+    url: ''
+    select_all_flights_checkbox:
+        by: 'css selector'
+        value: '.group.filter-group > div:nth-child(1) > div > input'
+    description_filter:
+        by: 'css selector'
+        value: '.filter-description>input'
+    tactic_filter:
+        by: 'css selector'
+        value: '.filter-tactic > select'
+    flight_type_filter:
+        by: 'css selector'
+        value: '.filter-flight-type > select'
+    algorithm_filter:
+        by: 'css selector'
+        value: '.filter-algorithm > select'
+    status_filter:
+        by: 'css selector'
+        value: '.filter-status > select'
+    select_single_flight:
+        by: 'css selector'
+        value: '.flight-budget-first-row > .pull-left > .fbs-checkbox > input'
+    flight_description:
+        by: 'css selector'
+        value: '.flight_name.text'
+    flight_tactic_listbox:
+        link:
+            by: 'css selector'
+            value: '.flight-field-tactic > div.chzn-container > a'
+        textbox:
+            by: 'css selector'
+            value: '.flight-field-tactic > div.chzn-container > div.chzn-drop > .chzn-search > input'
+    flight_type_listbox:
+        link:
+            by: 'css selector'
+            value: '.flight-field-flight-type > div.chzn-container > a'
+        textbox:
+            by: 'css selector'
+            value: '.flight-field-flight-type > div.chzn-container > div.chzn-drop > .chzn-search > input'
+    flight_algorithm_listbox:
+        link:
+            by: 'css selector'
+            value: '.flight-field-algorithm > div.chzn-container > a'
+        textbox:
+            by: 'css selector'
+            value: '.flight-field-algorithm > div.chzn-container > div.chzn-drop > .chzn-search > input'
+    start_date:
+        by: 'css selector'
+        method: '.flight-start-date'
+    end_date:
+        by: 'css selector'
+        method: '.flight-end-date'
+    frequency_cap:
+        by: 'css selector'
+        value: '.impressions_cap > input'
+    single_frequency_cap:
+        by: 'css selector'
+        value: '.impressions_cap > input:nth-child(2)'    
+    impressions:
+        by: 'css selector'
+        value: '.impressions_cap > input~input'
+    frequency_type_listbox:
+        link:
+            by: 'css selector'
+            value: '.frequency_types > div.chzn-container > a'
+        hours:
+            by: 'css selector'
+            value: '.frequency_types > div.chzn-container > div.chzn-drop > ul > li[id$="chzn_o_0"]'
+        days:
+            by: 'css selector'
+            value: '.frequency_types > div.chzn-container > div.chzn-drop > ul > li[id$="chzn_o_1"]'
+        weeks:
+            by: 'css selector'
+            value: '.frequency_types > div.chzn-container > div.chzn-drop > ul > li[id$="chzn_o_2"]'
+        flight_duration:
+            by: 'css selector'
+            value: '.frequency_types > div.chzn-container > div.chzn-drop > ul > li[id$="chzn_o_3"]'
+    select_frequency_type:
+       by: 'css selector'
+       value: '.frequency_types > div.chzn-container > a'     
+    bid:
+       by: 'css selector'
+       value: '.flight-field-bid > .numeric > input'
+    day_cap:
+       by: 'css selector'
+       value: '.flight-field-day-cap > .numeric > input'
+    budget:
+       by: 'css selector'
+       value: '.flight-field-budget > .numeric > input'
+    percent_allocated:
+       by: 'css selector'
+       value: '.percent_allocated > input'
+    add_flight:
+       by: 'css selector'
+       value: '.add-flight'
+    edit_selected:
+       by: 'css selector'
+       value: '.select-all-container>.cols5>.group > button:nth-child(1)'
+    copy_flight:
+       by: 'css selector'
+       value: '.flight-copy-container>a>img'
+    delete_flight:
+       by: 'css selector'
+       value: 'img.deletable'
+    bid_name:
+       by: 'css selector'
+       value: '.cols1.flight-field-bid>label'
+    delivery_name:
+       by: 'css selector'
+       value: '.cols1.flight-field-delivery>label'
+    budget_name:
+       by: 'css selector'
+       value: '.cols1.flight-field-budget>label'
+    allocated_name:
+       by: 'css selector'
+       value: '.cols1.allocated>label'         
+    cancel_button:
+       by: 'css selector'
+       value: '.flight-buttons>div>div > button:nth-child(1)'
+    save_exit_button:
+       by: 'css selector'
+       value: '.save-and-exit'
+    save_continue_button:
+       by: 'css selector'
+       value: '.save-and-continue'
+    edit_flight_popup_tactic_checkbox:
+       by: 'css selector'
+       value: '#flight-budget-setup > div[class*=modal-dialog][style*=display: block] > div ~ div > form > div:nth-child(1) > div:nth-child(2) > div:nth-child(1) > input[data-attribute_name=tactic_id]'
+    edit_flight_popup_tactic:
+       by: 'css selector'
+       value: '#flight-budget-setup > div[class*=modal-dialog][style*=display: block] > div ~ div > form > div:nth-child(1) > div:nth-child(2) > div:nth-child(1) > input[data-attribute_name="tactic_id"] ~select'
+    edit_flight_popup_start_date_checkbox:
+       by: 'css selector'
+       value: '#flight-budget-setup > div[class*=modal-dialog][style*=display: block] > div ~ div > form > div:nth-child(1) > div:nth-child(2) > div:nth-child(3) > input[data-attribute_name="start_date_eastern"]'
+    edit_flight_popup_start_date:
+       by: 'css selector'
+       value: '#flight-budget-setup > div[class*=modal-dialog][style*=display: block] > div ~ div > form > div:nth-child(1) > div:nth-child(2) > div:nth-child(3) > input[data-attribute_name="start_date_eastern"] ~ input'
+    edit_flight_popup_end_date_checkbox:
+       by: 'css selector'
+       value: '#flight-budget-setup > div[class*=modal-dialog][style*=display: block] > div ~ div > form > div:nth-child(1) > div:nth-child(2) > div:nth-child(4) > input[data-attribute_name="end_date_eastern"]'
+    edit_flight_popup_end_date:
+       by: 'css selector'
+       value: '#flight-budget-setup > div[class*=modal-dialog][style*=display: block] > div ~ div > form > div:nth-child(1) > div:nth-child(2) > div:nth-child(4) > input[data-attribute_name="end_date_eastern"] ~ input'
+    edit_flight_popup_algorithm_checkbox:
+       by: 'css selector'
+       value: '#flight-budget-setup > div[class*=modal-dialog][style*=display: block] > div ~ div > form > div:nth-child(1) > div:nth-child(3) > div > input[data-attribute_name="algorithm_uid"]'
+    edit_flight_popup_algorithm:
+       link:
+           by: 'css selector'
+           value: '#flight-budget-setup > div[class*=modal-dialog][style*=display: block] > div ~ div > form > div:nth-child(1) > div:nth-child(3) > div > .chzn-container > a'
+       textbox:
+           by: 'css_selector'
+           value: '#flight-budget-setup > div[class*=modal-dialog][style*=display: block] > div ~ div > form > div:nth-child(1) > div:nth-child(3) > div > .chzn-container > .chzn-drop > .chzn-search > input'
+    edit_flight_popup_bid_checkbox:
+       by: 'css selector'
+       value: '#flight-budget-setup > div[class*=modal-dialog][style*=display: block] > div ~ div > form > div:nth-child(1) > div:nth-child(5) > div:nth-child(1) >input'
+    edit_flight_popup_bid:
+       by: 'css selector'
+       value: '#flight-budget-setup > div[class*=modal-dialog][style*=display: block] > div ~ div > form > div:nth-child(1) > div:nth-child(5) > div:nth-child(1) >.numeric > input'
+    edit_flight_popup_budget_checkbox:
+       by: 'css selector'
+       value: '#flight-budget-setup > div[class*=modal-dialog][style*=display: block] > div ~ div > form > div:nth-child(1) > div:nth-child(5) > div:nth-child(2) >input'
+    edit_flight_popup_budget:
+       by: 'css selector'
+       value: '#flight-budget-setup > div[class*=modal-dialog][style*=display: block] > div ~ div > form > div:nth-child(1) > div:nth-child(5) > div:nth-child(2) >.numeric > input'
+    edit_flight_popup_percent_allocated_checkbox:
+       by: 'css selector'
+       value: '#flight-budget-setup > div[class*=modal-dialog][style*=display: block] > div ~ div > form > div:nth-child(1) > div:nth-child(5) > div:nth-child(3) >input'
+    edit_flight_popup_percent_allocated:
+       by: 'css selector'
+       value: '#flight-budget-setup > div[class*=modal-dialog][style*=display: block] > div ~ div > form > div:nth-child(1) > div:nth-child(5) > div:nth-child(3) >.numeric>input'
+    edit_flight_popup_day_cap_checkbox:
+       by: 'css selector'
+       value: '#flight-budget-setup > div[class*=modal-dialog][style*=display: block] > div ~ div > form > div:nth-child(1) > div:nth-child(5) > div:nth-child(4) > input'
+    edit_flight_popup_day_cap:
+       by: 'css selector'
+       value: '#flight-budget-setup > div[class*=modal-dialog][style*=display: block] > div ~ div > form > div:nth-child(1) > div:nth-child(5) > div:nth-child(4) >.numeric>input'
+    edit_flight_popup_frequency_cap_checkbox:
+       by: 'css selector'
+       value: '#flight-budget-setup > div[class*=modal-dialog][style*=display: block] > div ~ div > form > div:nth-child(1) > div:nth-child(7) > .impressions_cap > input[data-attribute_name="impressions_cap"]'
+    edit_flight_popup_frequency_cap:
+       by: 'css selector'
+       value: '#flight-budget-setup > div[class*=modal-dialog][style*=display: block] > div ~ div > form > div:nth-child(1) > div:nth-child(7) > .impressions_cap > input[data-attribute_name="impressions_cap"] ~ input'
+    edit_flight_popup_impressions:
+       by: 'css selector'
+       value: '#flight-budget-setup > div[class*=modal-dialog][style*=display: block] > div ~ div > form > div:nth-child(1) > div:nth-child(7) > .impressions_cap > input[data-attribute_name="impressions_cap"] ~ input~input'
+    edit_flight_popup_frequency_type:
+       by: 'css selector'
+       value: '#flight-budget-setup > div[class*=modal-dialog][style*=display: block] > div ~ div > form > div:nth-child(1) > div:nth-child(7) > .impressions_cap ~ .cols1 > select'
+    update_flights:
+       by: 'css selector'
+       value: '#flight-budget-setup > div[class*=modal-dialog][style*=display: block] > div ~ div > form > div:nth-child(2) > .group > .cols9 > #update_flights'
+    cancel_button:
+       by: 'css selector'
+       value: '#flight-budget-setup > div[class*=modal-dialog][style*=display: block] > div ~ div > form > div:nth-child(2) > .group > .cols9 > #cancel'
+    blank_msgs:
+       flight_name: "Flights description can't be blank"
+       bid: "Flights default bid can't be blank"
+       budget: "Flights io budget is not a number"
+    negative_msg:
+       negative_bid: "The bid must be between 0 and 100.0."
+       negative_budget: "Flights io budget must be greater than or equal to 0"
+       negative_day_cap: "Flights max day budget must be greater than 0"
+    alphanumeric_msg:
+       alphanumeric_frequency_cap: "Flights impressions cap frequency is not a number"
+       alphanumeric_impression_cap: "Flights impressions cap is not a number"
+    flight_attribute:  
+       flight_tactic_listbox_attribute: ''
+       flight_type_listbox_attribute: ''
+       flight_algorithm_listbox_attribute: ''
+       start_dates_attribute: ''
+       end_dates_attribute: ''
+       single_frequency_cap_attribute: ''
+       impressions_attribute: ''
+       frequency_type_listbox_attribute: ''
+       bid_attribute: ''
+       day_cap_attribute: ''
+       budget_attribute: ''
+       perent_allocated_attribute: ''
+    flights_row:
+        by: 'id'
+        value: 'flights'
+    flights_errors:
+        by: 'id'
+        value: 'errors'

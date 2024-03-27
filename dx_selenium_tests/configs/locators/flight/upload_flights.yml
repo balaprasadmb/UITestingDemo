@@ -1,0 +1,427 @@
+upload_flights:
+    url: ''
+    browse_file:
+        value: 'flight_setup_spreadsheet_file'
+    upload_flight_sections:
+        value: 'reference_data_outer'
+    upload_file:
+        by: 'css selector'
+        value: '.primary'
+    flight_uploads:
+        value: 'bulk-create-view'
+    cancel:
+        value: 'cancel'
+    flight_submit:
+        value: 'submit'
+    wait:
+        by: 'css selector'
+        value: '#container3>div>div>img'
+    upload_form:
+        value: 'form'
+    create_link:
+        value: 'create_manually'
+    first_tab:
+        by: 'link text'
+        value: 'Flight Details & Inventory'
+    second_tab:
+        by: 'link text'
+        value: 'Channels & Languages'
+    third_tab:
+        by: 'link text'
+        value: 'Geographic Targeting'
+    fourth_tab:
+        by: 'link text'
+        value: 'Creative Assignment'
+    fifth_tab:
+        by: 'link text'
+        value: 'Audience Targeting'
+    frequency_cap:
+        value: 'flight_impressions_cap'
+    frequency:
+        value: 'flight_impressions_cap_frequency'
+    frequency_type:
+        value: 'flight_impressions_cap_frequency_type'
+    flight_type:
+        value: 'flight_types'
+    algorithm:
+        value: 'standard_exchange_algorithms'
+    fbx_algorithm:
+        value: 'fbx_algorithms'
+    placement_standard:
+        by: 'css selector'
+        value: '#details_and_inventory>div>div:nth-child(3)>div:nth-child(2)>div>div:nth-child(1)>select'
+    placement_fbx:
+        by: 'css selector'
+        value: '#details_and_inventory>div>div:nth-child(3)>div:nth-child(2)>div>div:nth-child(2)>select'
+    placement_tracking:
+        by: 'css selector'
+        value: '#details_and_inventory>div>div:nth-child(3)>div:nth-child(2)>div>div:nth-child(3)>select'
+    viewability:
+        value: 'flight_viewability_vendor_id'
+    selections:
+        value: 'flight_viewability_pct'
+    use_grid:
+        by: 'link text'
+        value: 'Use the 24-7 grid to filter by hours'
+    dayparting_sunday:
+        by: 'css selector'
+        value: '#flight_targeting_attributes_week_0.radioCheck'
+    dayparting_monday:
+        by: 'css selector'
+        value: '#flight_targeting_attributes_week_1.radioCheck'
+    dayparting_tuesday:
+        by: 'css selector'
+        value: '#flight_targeting_attributes_week_2.radioCheck'
+    dayparting_wednesday:
+        by: 'css selector'
+        value: '#flight_targeting_attributes_week_3.radioCheck'
+    dayparting_thursday:
+        by: 'css selector'
+        value: '#flight_targeting_attributes_week_4.radioCheck'
+    dayparting_friday:
+        by: 'css selector'
+        value: '#flight_targeting_attributes_week_5.radioCheck'
+    dayparting_saturday:
+        by: 'css selector'
+        value: '#flight_targeting_attributes_week_6.radioCheck'
+    select_all:
+        by: 'css selector'
+        value: '#details_and_inventory>div>div:nth-child(3)>div:nth-child(6)>div>div:nth-child(4)>p>input'
+    select_first:
+        by: 'css selector'
+        value: '#inventory_supplier_list>li:nth-child(1)>div>div>input:nth-child(1)'
+    select_all_tracking:
+        by: 'css selector'
+        value: '#details_and_inventory>div>div:nth-child(3)>div:nth-child(6)>div>div:nth-child(6)>p>input'
+    sv_frequency_cap:
+        by: 'css selector'
+        value: '#details_and_inventory>div>div:nth-child(2)>div.cols3>input'
+    sv_flight_type:
+        by: 'css selector'
+        value: '#details_and_inventory>div>div:nth-child(4)>div>input:nth-child(2)'
+    sv_algorithm:
+        by: 'css selector'
+        value: '#details_and_inventory>div>div:nth-child(4)>div>div.algorithm>input'
+    sv_viewability:
+        by: 'css selector'
+        value: '.viewability>input'
+    sv_placement:
+        by: 'css selector'
+        value: '#details_and_inventory>div>div:nth-child(4)>div>input:nth-child(8)'
+    sv_dayparting:
+        by: 'css selector'
+        value: '#details_and_inventory>div>div:nth-child(4)>div>input:nth-child(12)'
+    sv_suppliers:
+        value: 'inventory_suppliers'
+    avail_channels:
+        value: 'content_channels_all'
+    selected_channels:
+        value: 'content_channels_selected'
+    select_channels:
+        value: 'mv_sel_content_channels'
+    remove_channels:
+        value: 'rm_sel_content_channels'
+    select_all_channels:
+        value: 'mv_all_sel_content_channels'
+    remove_all_channels:
+        value: 'rm_all_sel_content_channels'
+    inherit_lang_targeting:
+        value: 'flight_inherit_language_targeting_true'
+    separate_lang_targeting:
+        value: 'flight_inherit_language_targeting_false'
+    lang_targeting_section:
+        by: 'css selector'
+        value: '.language_targeting_fields'
+    base_lang_targeting:
+        value: 'flight_language_source'
+    avail_langs:
+        value: 'target_languages_all'
+    selected_langs:
+        value: 'target_languages_selected'
+    select_langs:
+        value: 'mv_sel_target_languages'
+    remove_langs:
+        value: 'rm_sel_target_languages'
+    select_all_langs:
+        value: 'mv_all_sel_target_languages'
+    remove_all_langs:
+        value: 'rm_all_sel_target_languages'
+    sv_channels:
+        by: 'css selector'
+        value: '#content_channels~div>input'
+    sv_langs:
+        by: 'css selector'
+        value: '#channels_and_languages>div>div:nth-child(2)>div:nth-child(2)>input:nth-child(2)'
+    sv_lang_source:
+        by: 'css selector'
+        value: '#channels_and_languages>div>div:nth-child(2)>div:nth-child(2)>input:nth-child(6)'
+    inherit_geo_targeting:
+        value: 'flight_inherit_geo_targeting_true'
+    separate_geo_targeting:
+        value: 'flight_inherit_geo_targeting_false'
+    geo_target_type:
+        value: 'geo_target_type'
+    search_countries:
+        value: 'country__available_search'
+    avail_countries:
+        value: 'country_countries_all'
+    selected_countries:
+        value: 'country_countries_selected'
+    select_countries:
+        value: 'mv_sel_country_countries'
+    remove_countries:
+        value: 'rm_sel_country_countries'
+    select_all_countries:
+        value: 'mv_all_sel_country_countries'
+    remove_all_countries:
+        value: 'rm_all_sel_country_countries'
+    geofenced_search_countries:
+        value: '_available_search'
+    geofenced_avail_countries:
+        value: 'geohash_groups_all'
+    geofenced_selected_countries:
+        value: 'geohash_groups_selected'
+    geofenced_select_countries:
+        value: 'mv_sel_geohash_groups'
+    geofenced_remove_countries:
+        value: 'rm_sel_geohash_groups'
+    geofenced_select_all_countries:
+        value: 'mv_all_sel_geohash_groups'
+    geofenced_remove_all_countries:
+        value: 'rm_all_sel_geohash_groups'
+    geofenced_browse_file:
+        value: 'geohash_group_file'
+    geofenced_group_name:
+        value: 'geohash_group_file'
+    geofenced_group_submit:
+        value: 'campaign_geohash_submit'
+    country:
+        value: 'flight_geo_target_country_id'
+    area_type:
+        value: 'flight_geo_target_area_type'
+    dual_search_countries:
+        by: 'css selector'
+        value: '#flight_regions_input>.dualselect_available>.search_controls>.dualselect_available_search'
+    dual_avail_countries:
+        by: 'css selector'
+        value: '#flight_regions_input>.dualselect_available>select'
+    dual_selected_countries:
+        by: 'css selector'
+        value: '#flight_regions_input>.dualselect_applied>select'
+    dual_select_countries:
+        by: 'css selector'
+        value: '#flight_regions_input>.dualselect_buttons>div>.dualselect_move_selected'
+    dual_remove_countries:
+        by: 'css selector'
+        value: '#flight_regions_input>.dualselect_buttons>div>.dualselect_remove_selected'
+    dual_select_all_countries:
+        by: 'css selector'
+        value: '#flight_regions_input>.dualselect_buttons>div>.dualselect_move_all'
+    dual_remove_all_countries:
+        by: 'css selector'
+        value: '#flight_regions_input>.dualselect_buttons>div>.dualselect_remove_all'
+    mc_search_countries:
+        by: 'css selector'
+        value: '#flight_dmas_input>.dualselect_available>.search_controls>.dualselect_available_search'
+    mc_avail_countries:
+        by: 'css selector'
+        value: '#flight_dmas_input>.dualselect_available>select'
+    mc_selected_countries:
+        by: 'css selector'
+        value: '#flight_dmas_input>.dualselect_applied>select'
+    mc_select_countries:
+        by: 'css selector'
+        value: '#flight_dmas_input>.dualselect_buttons>div>.dualselect_move_selected'
+    mc_remove_countries:
+        by: 'css selector'
+        value: '#flight_dmas_input>.dualselect_buttons>div>.dualselect_remove_selected'
+    mc_select_all_countries:
+        by: 'css selector'
+        value: '#flight_dmas_input>.dualselect_buttons>div>.dualselect_move_all'
+    mc_remove_all_countries:
+        by: 'css selector'
+        value: '#flight_dmas_input>.dualselect_buttons>div>.dualselect_remove_all'
+    pc_search_countries:
+        by: 'css selector'
+        value: '#flight_postal_code_groups_input>.dualselect_available>.search_controls>.dualselect_available_search'
+    pc_avail_countries:
+        by: 'css selector'
+        value: '#flight_postal_code_groups_input>.dualselect_available>select'
+    pc_selected_countries:
+        by: 'css selector'
+        value: '#flight_postal_code_groups_input>.dualselect_applied>select'
+    pc_select_countries:
+        by: 'css selector'
+        value: '#flight_postal_code_groups_input>.dualselect_buttons>div>.dualselect_move_selected'
+    pc_remove_countries:
+        by: 'css selector'
+        value: '#flight_postal_code_groups_input>.dualselect_buttons>div>.dualselect_remove_selected'
+    pc_select_all_countries:
+        by: 'css selector'
+        value: '#flight_postal_code_groups_input>.dualselect_buttons>div>.dualselect_move_all'
+    pc_remove_all_countries:
+        by: 'css selector'
+        value: '#flight_postal_code_groups_input>.dualselect_buttons>div>.dualselect_remove_all'
+    pc_browse_file:
+        value: 'postal_code_group_file'
+    pc_group_name:
+        value: 'postal_code_group_name'
+    pc_group_submit:
+        value: 'flight_submit'
+    sv_geo_target_type:
+        value: '#geographic_targeting>div>div:nth-child(2)>input:nth-child(5)'
+    sv_geo_target:
+        value: '#geographic_targeting>div>div:nth-child(2)>input:nth-child(9)'
+    creative_search:
+        by: 'css selector'
+        value: '#creative_assignment>div>div>.table_view_header>div>div>.search'
+    master_select:
+        by: 'css selector'
+        value: '.select_all'
+    first_select:
+        by: 'css selector'
+        value: '.scrollable>tbody>tr:nth-child(1)>.selectable>input'
+    first_creative:
+        by: 'css selector'
+        value: '.scrollable>tbody>tr:nth-child(1)>.selectable~td'
+    sv_creatives:
+        by: 'css selector'
+        value: '#creative_assignment>div>div:nth-child(2)>input'
+    avail_audience:
+        value: 'segments_all'
+    included_audience:
+        value: 'included_segments_selected'
+    excluded_audience:
+        value: 'excluded_segments_selected'
+    move_included_audience:
+        value: 'mv_sel_included_segments'
+    move_all_included_audience:
+        value: 'mv_all_sel_included_segments'
+    remove_audience:
+        value: 'rm_sel_segments'
+    remove_all_audience:
+        value: 'rm_all_sel_segments'
+    move_excluded_audience:
+        value: 'mv_sel_excluded_segments'
+    move_all_excluded_audience:
+        value: 'mv_all_sel_excluded_segments'
+    sv_included_audience:
+        by: 'css selector'
+        value: '#audience_targeting>div>div>div:nth-child(2)>input:nth-child(5)'
+    sv_excluded_audience:
+        by: 'css selector'
+        value: '#audience_targeting>div>div>div:nth-child(2)>input:nth-child(9)'
+    wifi:
+        value: 'flight_mobile_connection_type_ids_0'
+    carrier:
+        value: 'flight_mobile_connection_type_ids_1'
+    other:
+        value: 'flight_mobile_connection_type_ids_2'
+    mobile_option:
+        value: 'flight_app_or_web'
+    mobile_carrier_avail:
+        value: 'mobile_carriers_all'
+    mobile_carrier_applied:
+        value: 'mobile_carriers_selected'
+    move_mobile_carrier:
+        value: 'mv_sel_mobile_carriers'
+    remove_mobile_carrier:
+        value: 'rm_sel_mobile_carriers'
+    move_all_mobile_carrier:
+        value: 'mv_all_sel_mobile_carriers'
+    remove_all_mobile_carrier:
+        value: 'rm_all_sel_mobile_carriers'
+    mobile_platform_avail:
+        value: 'mobile_platforms_all'
+    mobile_platform_applied:
+        value: 'mobile_platforms_selected'
+    move_mobile_platform:
+        value: 'mv_sel_mobile_platforms'
+    remove_mobile_platform:
+        value: 'rm_sel_mobile_platforms'
+    move_all_mobile_platform:
+        value: 'mv_all_sel_mobile_platforms'
+    remove_all_mobile_platform:
+        value: 'rm_all_sel_mobile_platforms'
+    devices_filter:
+        value: 'filter_mobile_devices'
+    designation_filter:
+        value: 'filter_designations'
+    all_tabs:
+        value: 'all-tablets'
+    all_smartphones:
+        value: 'all-smartphones'
+    all_feature_phones:
+        value: 'all-feature-phones'
+    select_all_mms:
+        by: 'css selector'
+        value: '.select_all'
+    select_first_mms:
+        by: 'css selector'
+        value: '.tablescroll_body>tbody>tr:nth-child(1)>.selectable>input'
+    expand_first_mms:
+        by: 'css selector'
+        value: '.tablescroll_body>tbody>tr:nth-child(1)>.name>img'
+    select_first_model:
+        by: 'css selector'
+        value: '.tablescroll_body>tbody>tr:nth-child(2)>.selectable>input'
+    sv_gateway:
+        by: 'css selector'
+        value: '#mobile_channel_options>div>div:nth-child(1)>div>div:nth-child(2)>div:nth-child(2)>input'
+    sv_mobile_options:
+        by: 'css selector'
+        value: '#mobile_channel_options>div>div:nth-child(2)>div>div:nth-child(2)>div:nth-child(2)>input'
+    sv_carrier:
+        by: 'css selector'
+        value: '#mobile_channel_options>div>div:nth-child(3)>div>div:nth-child(2)>div:nth-child(2)>input'
+    sv_platform:
+        by: 'css selector'
+        value: '#mobile_channel_options>div>div:nth-child(4)>div>div:nth-child(2)>div:nth-child(2)>input'
+    sv_devices:
+        by: 'css selector'
+        value: '#mobile_channel_options>div>div:nth-child(5)>div>div:nth-child(2)>div:nth-child(2)>input'
+    devices_td:
+        by: 'css selector'
+        value: '#mobile_channel_options>div>div:nth-child(5)>div>div:nth-child(2)>div:nth-child(1)>div:nth-child(3)>div>div>.tablescroll>.tablescroll_wrapper>.tablescroll_body>tbody>tr:nth-child(1)>.name>div'
+    hover_td:
+        by: 'css selector'
+        value: '#bulk-create-view>.group>.pinned>table>tbody>tr:nth-child(1)>.error'
+    first_link: 'Flight Details & Inventory'
+    second_link: 'Channels & Languages'
+    third_link: 'Geographic Targeting'
+    fourth_link: 'Creative Assignment'
+    fifth_link: 'Audience Targeting'
+    sixth_link: 'Mobile Options'
+    flights: 'Add Flights'
+    msgs:
+        invalid_data: 'Once you fix the errors in your spreadsheet, please re-upload it.'
+        blank_file: "Data can't be blank"
+        invalid_format: 'Filetype is not supported. Supported filetypes are: xls, ods, csv'
+        blank_description: "Description can't be blank"
+        overflow: 'Description is too long (maximum is 100 characters)'
+    inputs:
+        day_parting: 'Sunday: All. Monday: All. Tuesday: All. Wednesday: All. Thursday: All. Friday: All. Saturday: All'
+        algorithms: 'DX-100'
+        placement: 'Above the fold'
+        suppliers: 'adConductor'
+        channels: 'IAB1'
+        base_lang_target: 'Browser'
+        lang_targeting: 'nl|ko|th'
+        creative: '728x90'
+        audience: '3M Adhesives 3rd Party Data'
+        gateway: 'WiFi'
+        options: 'Applications'
+        carrier: 'AT&T'
+        platform: 'Android'
+        devices: 'smartphones'
+        search: 'Galaxy'
+    one_view_section:
+        by: 'css selector'
+        value: '.oneview'
+    single_device_policy:
+        value: 'oneview_policy_1'
+    high_precision_policy:
+        value: 'oneview_policy_2'
+    broad_reach_policy:
+        value: 'oneview_policy_3'
+    one_view_policies_flight_upload: ['high_precision_policy', 'single_device_policy', 'broad_reach_policy']

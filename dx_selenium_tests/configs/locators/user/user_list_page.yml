@@ -1,0 +1,20 @@
+#default by: 'id'
+user_list_page:
+    url: 'users/'
+    filter:
+        value: 'filter_users'
+    edit_icon:
+        by: 'css selector'
+        value: 'tbody > tr:nth-child(1) > td > a > img'
+    campaign_manager: 'dx_campaign'
+    campaign_manager_email:
+        by: 'link text'
+        value: 'dx_campaign@dataxu.com'
+    inventory_manager: 'dx_inventory'
+    inventory_manager_email:
+        by: 'link text'
+        value: 'dx_inventory@dataxu.com'
+    campaign_manager_with_one_view: 'dx_campaign_one_view'
+    campaign_manager_with_one_view_email:
+        by: 'link text'
+        value: 'dx_campaign_one_view@dataxu.com'

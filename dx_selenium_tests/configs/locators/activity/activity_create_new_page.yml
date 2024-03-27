@@ -1,0 +1,95 @@
+#default by: 'id'
+activity_create_new_page:
+    activities_link:
+        by: 'css selector'
+        value: '.breadcrumbs>a:nth-child(2)'
+    activity_name_first:
+        by: 'css selector'
+        value: '.activity_name'
+    activity_name_second:
+        by: 'css selector'
+        value: '.activity_fields:nth-child(2) > div > .activity_name'
+    activity_type_dropdown_first:
+        by: 'css selector'
+        value: '.activity_fields:nth-child(1) > div:nth-child(2) > div > a'
+    activity_type_dropdown_second:
+        by: 'css selector'
+        value: '.activity_fields:nth-child(2) > div:nth-child(2) > div > a'
+    activity_type_textbox:
+        by: 'css selector'
+        value: 'div[id$="id_chzn"] > div input'
+    activity_type_dropdown_option:
+        by: 'css selector'
+        value: 'div[id$="activity_type_id_chzn"] > div > ul > li'
+    tag_server_dropdown_first:
+        by: 'css selector'
+        value: '.activity_fields:nth-child(1) > div:nth-child(3) > div > .chzn-default'
+    tag_server_dropdown_second:
+        by: 'css selector'
+        value: '.activity_fields:nth-child(2) > div:nth-child(3) > div > .chzn-default'
+    tag_server_textbox:
+        by: 'css selector'
+        value: 'div[id$="source_chzn"] > div input'
+    tag_id_first:
+        by: 'css selector'
+        value: '.activity_fields:nth-child(1) > div:nth-child(4) > .activity_external_id'
+    tag_id_second:
+        by: 'css selector'
+        value: '.activity_fields:nth-child(2) > div:nth-child(4) > .activity_external_id'
+    secure_checkbox_first:
+        by: 'css selector'
+        value: '.activity_fields:nth-child(1) > div:nth-child(5) > .activity_secure'
+    secure_checkbox_second:
+        by: 'css selector'
+        value: '.activity_fields:nth-child(2) > div:nth-child(5) > .activity_secure'
+    rmx_checkbox_first:
+        by: 'css selector'
+        value: '.activity_fields:nth-child(1) > div:nth-child(6) > .activity_rmx'
+    rmx_checkbox_second:
+        by: 'css selector'
+        value: '.activity_fields:nth-child(2) > div:nth-child(6) > .activity_rmx'
+    remove_button_first:
+        by: 'css selector'
+        value: '.activity_fields:nth-child(1) > div:nth-child(6) > img.remove'
+    remove_button_second:
+        by: 'css selector'
+        value: '.activity_fields:nth-child(2) > div:nth-child(6) > img.remove'
+    add_pixel_button:
+        value: 'add_pixel'
+    enable_sharing_checkbox:
+        value: 'activity_sharing_enabled'
+    sharing_organization_filter_box:
+        value: 'filter_by_name'
+    sharing_organization_select_all_checkbox:
+        by: 'css selector'
+        value: '.select_all'
+    create_segment_checkbox:
+        value: 'create_first_party_segment'
+    create_activity_button:
+        value: 'activity_submit'
+    cancel_button:
+        by: 'css selector'
+        value: 'input[value="Cancel"]'
+    activity_segment_name:
+        value: 'first_party_segment_name'
+    expiration_text_box:
+        value: 'first_party_segment_expiration'
+    expiration_unit_dropdown:
+        value: 'first_party_segment_expiration_units'
+    frequency_textbox:
+        value: 'first_party_segment_minimum_activity_fire_count'
+    create_audience_checkbox:
+        value: 'create_composite_segment'
+    audience_name_textbox:
+        value: 'composite_segment_name'
+    secure_checkbox_non_permission:
+        by: 'css selector'
+        value: '.activity_secure'
+    rmx_checkbox_non_permission:
+        by: 'css selector'
+        value: '.activity_rmx'
+    activity_create_new_page_elements: ['activities_link', 'activity_name_first', 'activity_type_dropdown_first', 'tag_server_dropdown_first', 'tag_id_first', 'secure_checkbox_first', 'rmx_checkbox_first', 'add_pixel_button', 'enable_sharing_checkbox', 'create_segment_checkbox', 'create_activity_button', 'cancel_button']
+    expected_activity_type_options: ['Shopping Cart', 'Search Result', 'Product', 'Marketing', 'Homepage', 'Expand', 'Completed View', 'Checkout']
+    activity_second_row_elements: ['activity_name_second', 'activity_type_dropdown_second', 'tag_server_dropdown_second', 'tag_id_second', 'secure_checkbox_second', 'rmx_checkbox_second', 'remove_button_second']
+    create_new_page_elements_without_permissions: ['activities_link', 'activity_name_first', 'activity_type_dropdown_first', 'secure_checkbox_non_permission', 'rmx_checkbox_non_permission', 'add_pixel_button', 'create_segment_checkbox', 'create_activity_button', 'cancel_button']
+    unavilable_create_new_page_elements_without_permissions: ['tag_server_dropdown_first', 'tag_id_first', 'enable_sharing_checkbox']

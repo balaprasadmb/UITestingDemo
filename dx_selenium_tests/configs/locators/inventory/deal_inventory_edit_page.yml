@@ -1,0 +1,41 @@
+#default by: 'id'
+deal_inventory_edit_page:
+    deals_link:
+        by: 'css selector'
+        value: '.breadcrumbs > a'
+    deal_inventory_form:
+        value: 'new_deal_inventory'
+    deal_name:
+        value: 'deal_inventory_name'
+    exchange_dropdown:
+        value: 'deal_inventory_inventory_supplier_id'
+    deal_id:
+        value: 'deal_inventory_external_id'
+    deal_type_dropdown:
+        value: 'deal_inventory_deal_type'
+    deal_currency:
+        value: 'deal_inventory_currency_id'
+    deal_cost_cpm_value:
+        value: 'deal_inventory_cost_value'
+    deal_start_date:
+        value: 'deal_inventory_start_at'
+    deal_end_date:
+        value: 'deal_inventory_end_at'
+    deal_description:
+        value: 'deal_inventory_description'
+    deal_permissioned_agency_group_name:
+        by: 'css selector'
+        value: '#agency_groups_chzn > ul > li > input'
+    deal_permissioned_agency_name:
+        by: 'css selector'
+        value: '#agencies_chzn > ul > li > input'
+    deal_permissioned_advertiser_name:
+        by: 'css selector'
+        value: '#advertisers_chzn > ul > li > input'
+    deal_cancel_button:
+        by: 'css selector'
+        value: '.cols9 > input:nth-child(1)'
+    save_deal_button:
+        value: 'deal_inventory_submit'
+    deal_inventory_edit_page_contents: ['Create Deal', 'Deal Details', 'Permissions']
+    deal_inventory_edit_page_elements: ['deals_link', 'deal_name', 'exchange_dropdown', 'deal_id', 'deal_type_dropdown', 'deal_currency', 'deal_cost_cpm_value', 'deal_start_date', 'deal_end_date', 'deal_description', 'deal_permissioned_agency_group_name', 'deal_permissioned_agency_name', 'deal_permissioned_advertiser_name', 'deal_cancel_button', 'save_deal_button']

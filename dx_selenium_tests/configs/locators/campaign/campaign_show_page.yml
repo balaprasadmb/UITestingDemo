@@ -1,0 +1,49 @@
+#default by: 'id'
+campaign_show_page:
+    advertiser_link:
+        by: 'css selector'
+        value: '.breadcrumbs>a'
+    edit_link:
+        value: 'edit_campaign'
+    view_all_campaigns_link:
+        by: 'link text'
+        value: 'View All Campaigns'
+    dashboard_link:
+        value: 'switch_to_dx_ng'
+    export_flights_button:
+        by: 'css selector'
+        value: '.lnkbtn.add'
+    iab_quality_guideline_link:
+        by: 'link text'
+        value: 'IAB quality guidelines'
+    blacklist_link:
+        value: 'view_campaign_blacklist'
+    whitelist_link:
+        value: 'view_campaign_whitelist'
+    reports_link:
+        by: 'id'
+        value: 'reports'
+    blocked_publishers_link:
+        by: 'link text'
+        value: 'Blocked Publishers'
+    smart_assign_creatives_link:
+        by: 'link text'
+        value: 'Smart Assign Creatives'
+    bulk_upload_flights_buttons:
+        by: 'css selector'
+        value: '.flight_actions>a:nth-child(1)'
+    edit_budget_schedules_buttons:
+        by: 'css selector'
+        value: '.flight_actions>a:nth-child(2)'
+    add_flights_buttons:
+        by: 'css selector'
+        value: '.flight_actions>a:nth-child(3)'
+    flights_link:
+        by: 'css selector'
+        value: '.flight_row>.first>a'
+    creatives_link:
+        by: 'css selector'
+        value: '.flight_row>td:nth-child(8)>.xsmall'
+    tactic_flight_table:
+        by: 'id'
+        value: 'tactic_flight_table'

@@ -1,0 +1,93 @@
+#default by: 'id'
+audiences_list_page:
+    organization_dropdown:
+        by: 'css selector'
+        value: '.chzn-single'
+    organization_dropdown_input:
+        by: 'css selector'
+        value: '.chzn-search > input'
+    selected_advertiser_name:
+        by: 'css selector'
+        value: '.chzn-single > span'
+    create_new_audience_button:
+        by: 'css selector'
+        value: '.rbox > a:nth-child(1)'
+    create_first_party_segment_button:
+        by: 'css selector'
+        value: '.rbox > a:nth-child(2)'
+    currency_dropdown:
+        value: 'currency_switcher'
+    audience_search_text_box:
+        value: 'composite_segment_name_filter'
+    hide_audiences_checkbox:
+        value: 'toggle_hide_unused_composite_segments'
+    audience_tab:
+        by: 'css selector'
+        value: '.composite_segments > a'
+    segment_tab:
+        by: 'css selector'
+        value: '.first_party_segments > a'
+    first_audience_name:
+        by: 'css selector'
+        value: '#composite_segments_table > tbody > tr:nth-child(1) > td:nth-child(1) > a'
+    first_audience_edit_icon:
+        by: 'css selector'
+        value: '#composite_segments_table > tbody > tr:nth-child(1) > td:nth-child(11) > a > img'
+    audience_list_previous_button:
+        by: 'css selector'
+        value: '#composite_segments_table_view > .table_view_footer > div > .pagination > .previous-page'
+    audience_list_next_button:
+        by: 'css selector'
+        value: '#composite_segments_table_view > .table_view_footer > div > .pagination > .next-page'
+    audience_go_to_page_text_box:
+        by: 'css selector'
+        value: '#composite_segments_table_view > .table_view_footer > div > .pagination > .pagination_form > input'
+    audience_show_rows_dropdown:
+        by: 'css selector'
+        value: '#composite_segments_table_view > .table_view_footer > div > .pagination > .pagination_select_rows > #per_page'
+    audience_table:
+        by: 'css selector'
+        value: '#composite_segments_table_view > table'
+    segment_table:
+        by: 'css selector'
+        value: '#first_party_segments_table_view > table'
+    segment_search_text_box:
+        value: 'first_party_segment_name_filter'
+    segment_filter_dropdown:
+        value: 'first_party_segment_active_filter'
+    segment_header_master_checkbox:
+        by: 'css selector'
+        value: 'th > .select-all'
+    segment_footer_master_checkbox:
+        by: 'css selector'
+        value: '#first_party_segments_table_view > .table_view_footer > .select-all'
+    first_segment_gear_icon:
+        by: 'css selector'
+        value: '#composite_segments_table > tbody > tr:nth-child(1) > td:nth-child(9) > span > img'
+    first_segment_edit_link:
+        by: 'css selector'
+        value: '#composite_segments_table > tbody > tr:nth-child(1) > td:nth-child(9) > span > .gear_box_content > ol > li:nth-child(1) > a'
+    first_segment_view_link:
+        by: 'css selector'
+        value: '#composite_segments_table > tbody > tr:nth-child(1) > td:nth-child(9) > span > .gear_box_content > ol > li:nth-child(2) > a'
+    first_segment_name:
+        by: 'css selector'
+        value: '#composite_segments_table > tbody > tr:nth-child(1) > td:nth-child(2) > a'
+    segment_show_rows_dropdown:
+        by: 'css selector'
+        value: '#first_party_segments_table_view > .table_view_footer > div > .pagination > .pagination_select_rows > #per_page'
+    segment_go_to_page_text_box:
+        by: 'css selector'
+        value: '#first_party_segments_table_view > .table_view_footer > div > .pagination > .pagination_form > input'
+    segment_list_previous_button:
+        by: 'css selector'
+        value: '#first_party_segments_table_view > .table_view_footer > div > .pagination > .previous-page'
+    segment_list_next_button:
+        by: 'css selector'
+        value: '#first_party_segments_table_view > .table_view_footer > div > .pagination > .next-page'
+    search_message: 'No audiences match the applied filters.'
+    audience_list_page_contents: ['Organization: ', 'Display currency in', 'Audience Name', 'Audience Size Uniques', 'Impressions', 'Daily Freq', 'Conv', 'Conv %', 'Media Spend', 'CPA', 'CPM', 'Last Updated', 'Actions', 'Show rows:']
+    audience_list_page_elements: ['audience_tab', 'segment_tab', 'create_new_audience_button', 'create_first_party_segment_button', 'first_audience_edit_icon', 'audience_list_previous_button', 'audience_list_next_button', 'audience_go_to_page_text_box', 'audience_show_rows_dropdown']
+    segment_list_page_contents: ['Name', 'Segment Size Uniques', 'Expiration', 'Activity Threshold', '30 Day Activity', 'Shared', 'Last Updated', 'Actions']
+    segment_list_page_elements: ['segment_filter_dropdown', 'segment_header_master_checkbox', 'segment_footer_master_checkbox', 'segment_show_rows_dropdown', 'segment_go_to_page_text_box', 'segment_list_previous_button', 'segment_list_next_button']
+    segment_filter_dropdown_options: ['View All', 'Active Only', 'Inactive Only']

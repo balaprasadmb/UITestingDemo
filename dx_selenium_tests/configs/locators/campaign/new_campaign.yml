@@ -1,0 +1,36 @@
+#default by: 'id'
+new_campaign:
+    url: '/campaigns'
+    campaign_link:
+        value: 'drop1'
+    new_campaign_link:
+        by: 'link text'
+        value: 'New Campaign'
+    advertiser:
+        value: 'advertiser'
+    suggestions:
+        by: 'css selector'
+        value: 'ul.ui-autocomplete > :first-child'
+    suggestion_link:
+        value: 'ui-active-menuitem'
+    campaign_currency:
+        value: 'campaign_currency_id'
+    campaign_channel:
+        value: 'pick_media_type'
+    inventory_type:
+        value:'pick_inventory_type'
+    online_campaign_submit:
+        value: 'pick_advertiser'
+    advertiser_name: 'regression_advertiser'
+    ford_campaign_link:
+        by: 'css selector'
+        value: '.ui-autocomplete > li:first-child > a'
+    close_popup:
+        by: 'css selector'
+        value: '.ui-icon.ui-icon-closethick'
+    new_online_campaign_body_link:
+        by: 'css selector'
+        value: '.ui-dialog-titlebar.ui-widget-header.ui-corner-all.ui-helper-clearfix > span'
+    search_box:
+        value: 'filter'
+    test_advertiser_name: '21st Century'

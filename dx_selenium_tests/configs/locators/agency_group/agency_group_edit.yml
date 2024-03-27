@@ -1,0 +1,40 @@
+#default by: 'id'
+agency_group_edit:
+    common: !include new_agency_group.yml
+    segment_name:
+        by: 'css selector'
+        value: '#segment_rates > thead > tr > th:nth-child(1)'
+    external_id:
+        by: 'css selector'
+        value: '#segment_rates > thead > tr > th:nth-child(2)'
+    cost:
+        by: 'css selector'
+        value: '#segment_rates > thead > tr > th:nth-child(3)'
+    price:
+        by: 'css selector'
+        value: '#segment_rates > thead > tr > th:nth-child(4)'
+    inherited:
+        by: 'css selector'
+        value: '#segment_rates > thead > tr > th:nth-child(5)'
+    organization_details:
+        value: 'organization_details'
+    currency:
+        value: 'currency'
+    configure_default:
+        value: 'default_settings'
+    add_on_cost_section:
+        value: 'organization_add_on_costs'
+    licenses:
+        value: 'organization_licensing'
+    seats:
+        value: 'organization_seats'
+    save_agency:
+        value: 'agency_group_submit'
+    error_message:
+        rate_card_with_different_currency: 'Rate card currency line 2: Geographic,1.0,0.45,0.54,CAD must match the organization currency (USD).'
+    invetory_locator:
+        by: 'css selector'
+        value: "input[data-inventory_supplier_name='{0}']"
+    greyed_out_currency_list_box:
+        by: 'css selector'
+        value: 'select[id="agency_group_organization_attributes_currency_id"][disabled="disabled"]'

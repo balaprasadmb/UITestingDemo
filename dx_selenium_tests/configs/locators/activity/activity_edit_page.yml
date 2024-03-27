@@ -1,0 +1,19 @@
+#default by: 'id'
+activity_edit_page:
+    common: !include activity_create_new_page.yml
+    activity_name:
+        value: 'activity_name'
+    activity_type_dropdown:
+        by: 'css selector'
+        value: 'div[id$="activity_type_id_chzn"] > a'
+    tag_server_dropdown:
+        by: 'css selector'
+        value: '#activity_source_chzn > a'
+    tag_id:
+        value: 'activity_external_id'
+    secure_checkbox:
+        value: 'activity_secure'
+    rmx_checkbox:
+        value: 'activity_rmx'
+    activity_edit_page_elements: ['activities_link', 'activity_name', 'activity_type_dropdown', 'tag_server_dropdown', 'tag_id', 'secure_checkbox', 'rmx_checkbox', 'enable_sharing_checkbox', 'create_activity_button', 'cancel_button']
+    unavailable_elements: ['add_pixel_button', 'create_segment_checkbox', 'create_audience_checkbox']

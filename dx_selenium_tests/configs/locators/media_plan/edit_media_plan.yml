@@ -1,0 +1,12 @@
+#default by: 'id'
+edit_media_plan:
+    common: !include create_media_plan.yml
+    value:
+        by: 'css selector'
+        value: '#media_plan_activities>div>div>div>input'
+    messages:
+        budget: 'Project plan budget is not a number'
+        end_date: 'End at is not a date'
+        activity_value: 'Media plan activities value is not a number'
+        success: 'Successfully created media plan.'
+        update: 'Successfully updated media plan.'

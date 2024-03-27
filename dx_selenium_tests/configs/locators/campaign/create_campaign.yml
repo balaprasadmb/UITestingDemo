@@ -1,0 +1,556 @@
+#default by: 'id'
+create_campaign:
+    campaign_name:
+        value: 'campaign_name'
+    campaign_start_date:
+        value: 'campaign_start_date'
+    campaign_end_date:
+        value: 'campaign_end_date'
+    insertion_order:
+        value: 'campaign_io_number'
+    cost_model:
+        value: 'campaign_campaign_cost_model_type_id'
+    cpa_goal:
+        value: 'campaign_cog_attributes_cpa_goal'
+    order_budget:
+        value: 'campaign_cog_attributes_insertion_order_budget'
+    campaign_cpm:
+        value: 'campaign_cog_attributes_cpm'
+    campaign_cogs:
+        value: 'campaign_cog_attributes_cogs'
+    campaign_margin:
+        value: 'campaign_cog_attributes_margin'
+    cruise_control_auto:
+        value: 'automatically_apply'
+    cruise_control_adhere:
+        value: 'campaign_cruise_control_setting_attributes_adhere_to_tactic_budgets'
+    campaign_objective_performance:
+        value: 'campaign_objective_Performance'
+    model:
+        value: 'campaign_performance_attribution_type_id'
+    activity:
+        value: 'campaign_campaign_activities_attributes_0_activity_id'
+    pixel:
+        value: 'campaign_campaign_activities_attributes_0_value'
+    filter:
+        value: 'campaign_campaign_activities_attributes_0_filter'
+    tag_server:
+        value: 'campaign_campaign_activities_attributes_0_activity_attributes_third_party_server_id_attributes_source'
+    tag_id:
+        value: 'campaign_campaign_activities_attributes_0_activity_attributes_third_party_server_id_attributes_external_id'
+    pixel_value:
+        value: 'campaign_campaign_activities_attributes_0_user_value'
+    remove_activity:
+        by: 'css selector'
+        value: 'fieldset[style="display: none;"] ~ fieldset > ol > .remove_field > .icon_link > img'
+    bulk_assign_pixel:
+        by: 'css selector'
+        value: '.bulk_pixel_assignment_dialog.lnkbtn.add'
+    pixel_type_value:
+        value: 'value'
+    pixel_type_filter:
+        value: 'filter'
+    pixel_type_learning:
+        value: 'user_value'
+    bulk_available_activities:
+        by: 'css selector'
+        value: '#bulk_available_activities'
+    bulk_assign_popup_close:
+        by: 'css selector'
+        value: '#ui-dialog-title-bulk_pixel_assignment ~a'
+    add_pixel:
+        by: 'css selector'
+        value: '#bulk_pixel_assignment~div.ui-dialog-buttonpane>button'
+    bulk_available_search:
+        value: 'bulk_available_search'
+    campaign_objective_ctr:
+        value: 'campaign_objective_CTR'
+    campaign_goal_ctr:
+        value: 'campaign_goal_ctr'
+    campaign_objective_distribution:
+        value: 'campaign_objective_Distribution'
+    campaign_objective_ad_views:
+        value: 'campaign_objective_Completed_Views'
+    viewability_vendor:
+        value: 'campaign_viewability_vendor_id'
+    category:
+        value: 'campaign_viewability_pct'
+    impression_caps:
+        value: 'campaign_impression_cap' 
+    new_tactics:
+        value: 'add_new_tactic'
+    tactic_name_default:
+        by: 'css selector'
+        value: '#tactics_groups > div:nth-child(1) > div > #campaign_tactics_attributes_new_tactic_name_input > select'
+    tactic_name:
+        by: 'css selector'
+        value: '#tactics_groups > div:nth-child(2) > div > #campaign_tactics_attributes_new_tactic_name_input > select'
+    tactic_name_second:
+        by: 'css selector'
+        value: '#tactics_groups > div:nth-child(3) > div > #campaign_tactics_attributes_new_tactic_name_input > select'
+    custom_field_default:
+        by: 'css selector'
+        value: '#tactics_groups > div:nth-child(1) > div > #campaign_tactics_attributes_new_tactic_name_input > input'
+    custom_field:
+        by: 'css selector'
+        value: '#tactics_groups > div:nth-child(2) > div > #campaign_tactics_attributes_new_tactic_name_input > input'
+    tactics_budget_default:
+        by: 'css selector'
+        value: '#tactics_groups > div:nth-child(1) > div:nth-child(2) > input'
+    tactics_budget:
+        by: 'css selector'
+        value: '#tactics_groups > div:nth-child(2) > div:nth-child(2) > input'
+    tactics_budget_second:
+        by: 'css selector'
+        value: '#tactics_groups > div:nth-child(3) >  div:nth-child(2) > input '
+    tactics_impression_default:
+        by: 'css selector'
+        value: '#tactics_groups > div:nth-child(1) > div:nth-child(3) > input'
+    tactics_impression:
+        by: 'css selector'
+        value: '#tactics_groups > div:nth-child(2) > div:nth-child(3) > input'
+    remove_tactics_default:
+        by: 'css selector'
+        value: '#tactics_groups > div:nth-child(1) > div:nth-child(4) > img'
+    remove_tactics:
+        by: 'css selector'
+        value: '#tactics_groups > div:nth-child(1) > div:nth-child(4) > img'
+    view_change_history:
+        by: 'link text'
+        value: 'View Change History'
+    new_add_on_cost:
+        value: 'add_new_add_on_cost'
+    add_on_cost_name:
+        by: 'css selector'
+        value: '.aoc_row>.aoc_name>.custom_select>select'
+    add_on_cost_rate:
+        value: '.aoc_row>.aoc_value>input[type="number"]'
+        by: 'css selector'
+    add_on_cost_fee_type:
+        by: 'css selector'
+        value: '#add_on_costs_content > .aoc_row > .aoc_fee_type > select'
+    add_on_cost_billable:
+        by: 'css selector'
+        value: '#add_on_costs_content > .aoc_row > .aoc_is_billable > input ~ input'
+    add_on_cost_marketplace:
+        by: 'css selector'
+        value: '#add_on_costs_content > .aoc_row > .aoc_is_marketplace > input ~ input'
+    add_on_cost_custom:
+        by: 'css selector'
+        value: '.aoc_row>.aoc_name>.custom_select>input'
+    remove_add_on_cost:
+        by: 'css selector'
+        value: '.remove_add_on_cost'
+    new_external_ids:
+        value: 'new_external_id'
+    external_id_source:
+        value: 'campaign_external_ids_attributes_new_external_id_source'
+    external_id_value:
+        value: 'campaign_external_ids_attributes_new_external_id_external_id'
+    remove_external_id:
+        by: 'css selector'
+        value: '.remove_external_id'
+    base_lang_targeting:
+        value: 'campaign_language_source'
+    lang_targeting_available:
+        value: 'target_languages_all'
+    move_selected_lang:
+        value: 'mv_sel_target_languages'
+    remove_selected_lang:
+        value: 'rm_sel_target_languages'
+    move_all_selected_lang:
+        value: 'mv_all_sel_target_languages'
+    remove_all_selected_lang:
+        value: 'rm_all_sel_target_languages'
+    lang_targeting_selected:
+        value: 'target_languages_selected'
+    geo_target_type:
+        value: 'geo_target_type'
+    country_available_search:
+        value: 'country__available_search'
+    country_available:
+        value: 'country_countries_all'
+    country_selected:
+        value: 'country_countries_selected'
+    move_selected_country:
+        value: 'mv_sel_country_countries'
+    remove_selected_country:
+        value: 'rm_sel_country_countries'
+    move_all_selected_country:
+        value: 'mv_all_sel_country_countries'
+    remove_all_selected_country:
+        value: 'rm_all_sel_country_countries'
+    geo_target_country_id:
+        value: 'campaign_geo_target_country_id'
+    geo_target_area_type:
+        value: 'campaign_geo_target_area_type'
+    dual_select_avail_search:
+        by: 'css selector'
+        value: '#campaign_regions_input > div.cols3 > span > .dualselect_available_search'
+    dual_avail_country:
+        by: 'css selector'
+        value: '#campaign_regions_input > div.dualselect_available >select'
+    dual_applied_country:
+        by: 'css selector'
+        value: '#campaign_regions_input > div.dualselect_applied >select'
+    mc_select_avail_search:
+        by: 'css selector'
+        value: '#campaign_dmas_input > div.cols3 > span.search_controls > .dualselect_available_search'
+    mc_avail_country:
+        by: 'css selector'
+        value: '#campaign_dmas_input > div.dualselect_available >select'
+    mc_applied_country:
+        by: 'css selector'
+        value: '#campaign_dmas_input > div.dualselect_applied >select'
+    postal_code_upload:
+        value: 'postal_code_group_file'
+    postal_code_group_name:
+        value: 'postal_code_group_name'
+    postal_code_group_submit:
+        by: 'css selector'
+        value: '.postal_code_group_upload_submit'
+    postal_code_status:
+        value: 'postal_code_group_upload_status'
+    geofenced_search:
+        by: 'css selector'
+        value: '#campaign_geohash_groups_input>.dualselect_available> .search_controls>.dualselect_available_search'
+    geofenced_available:
+        value: 'geohash_geohash_groups_all'
+    geofenced_applied:
+        value: 'geohash_geohash_groups_selected'
+    geofenced_move_selected_country:
+        value: 'mv_sel_geohash_geohash_groups'
+    geofenced_remove_selected_country:
+        value: 'rm_sel_geohash_geohash_groups'
+    geofenced_move_all_selected_country:
+        value: 'mv_all_sel_geohash_geohash_groups'
+    geofenced_remove_all_selected_country:
+        value: 'rm_all_sel_geohash_geohash_groups'
+    geofenced_file:
+        value: 'geohash_group_file'
+    geofenced_name:
+        value: 'geohash_group_name'
+    geofenced_submit:
+        value: 'campaign_geohash_submit'
+    brand_safety_level_one:
+        value: 'campaign_brand_safety_level_1'
+    brand_safety_level_two:
+        value: 'campaign_brand_safety_level_2'
+    brand_safety_level_three:
+        value: 'campaign_brand_safety_level_3'
+    brand_safety_level_four:
+        value: 'campaign_brand_safety_level_4'
+    whitelist_domains:
+        value: 'campaign_white_list_domains'
+    use_blacklist:
+        value: 'domain_list'
+    blacklist_domains:
+        value: 'campaign_black_list_domains'
+    whitelist_domains_file:
+        value: 'campaign_white_list_domains_file'
+    blacklist_domains_file:
+        value: 'campaign_black_list_domains_file'
+    list_dialogue:
+        by: 'css selector'
+        value: '.ui-dialog.ui-widget.ui-widget-content.ui-corner-all.dialog-500'
+    list_dialogue_close:
+        by: 'css selector'
+        value: '.ui-icon.ui-icon-closethick'
+    create_campaign:
+        value: 'campaign_submit'
+    date_picker:
+        value: 'ui-datepicker-div'
+    viewability:
+        by: 'css selector'
+        value: '#viewability>div>h1>div>span'
+    impression:
+        by: 'css selector'
+        value: '#impression_caps>div>h1>div>span'
+    tactics:
+        by: 'css selector'
+        value: '#tactics>div>h1>div>span'
+    add_on_cost:
+        by: 'css selector'
+        value: '#add_on_costs>div>h1>div>span'
+    external_ids:
+        by: 'css selector'
+        value: '#external_ids>div>h1>div>span'
+    lang_targeting:
+        by: 'css selector'
+        value: '#language_targeting>div>h1>div>span'
+    brand_safety:
+        by: 'css selector'
+        value: '#brand_safety>div>h1>div>span'
+    whitelist:
+        by: 'css selector'
+        value: '#whitelist>div>h1>div>span'
+    whitelist_info_icon:
+        by: 'css selector'
+        value: '#whitelist>div>h1>div>div'
+    whitelist_popover:
+        value: 'whitelist_popover'
+    blacklist:
+        by: 'css selector'
+        value: '#blacklist>div>h1>div>span'
+    blacklist_info_icon:
+        by: 'css selector'
+        value: '#blacklist>div>h1>div>div'
+    blacklist_popover:
+        value: 'blacklist_popover'
+    blacklist_domains_link:
+        by: 'css selector'
+        value: 'div.divider>div:nth-child(3)>p:nth-child(2)>a'
+    whitelist_domains_link:
+        by: 'css selector'
+        value: 'div.divider>div:nth-child(3)>p:nth-child(3)>a'
+    domains_popup:
+        by: 'css selector'
+        value: '.ui-dialog.ui-widget.ui-widget-content.ui-corner-all.dialog-500'
+    close_domains_popup:
+        by: 'css selector'
+        value: '.ui-icon.ui-icon-closethick'
+    first_value_field:
+        by: 'css selector'
+        value: 'fieldset:nth-child(3)>ol>.user_value_fields>li>input'
+    second_value_field:
+        by: 'css selector'
+        value: 'fieldset:nth-child(4)>ol>.user_value_fields>li>input'
+    reports_link:
+        value: 'reports'
+    campaign_details:
+        by: 'id'
+        value: 'campaign_details'
+    bulk_assign_pixel_popup:
+        by: 'id'
+        value: 'bulk_available_activities'
+    geotargeting_upload_error:
+        by: 'css'
+        value: '.upload_error_message'
+    lang_targeting_dropdown_option:
+        ["Browser Setting", "Content Language", "Either Browser or Content"]
+    blank_msgs:
+        campaign_name: "Campaign name can't be blank"
+        start_date: "Start date can't be blank"
+        end_date: "End date can't be blank"
+        cpa: 'Cog cpa goal is not a number'
+        cpm: 'Cog cpm is not a number'
+        cogs: 'Cog cogs is not a number'
+        budget: 'IO Budget is not a number'
+        margin: 'Cog margin is not a number'
+        activity_type: "Campaign activities activity activity type can't be blank"
+        third_party_tag_id: "Campaign activities activity third party server id external can't be blank"
+        activity_advertiser: "Campaign activities activity advertiser can't be blank"
+        activity_name: "Campaign activities activity name can't be blank"
+        activity_rmx: 'Campaign activities activity rmx is not included in the list'
+        activity_pixel: "Campaign activities value can't be blank"
+        activity_filter: 'Campaign activities value is not a number'
+        activities_invalid: 'Campaign activities is invalid'
+        add_on_cost_rate: 'Add on costs value is not a number'
+        add_on_cost_name: "Add on costs name can't be blank"
+        tactic_name: "Tactics name can't be blank"
+        ctr_goal: 'Goal ctr is required to Maximize CTR'
+    special_character_msgs:
+        cpa: 'Cog cpa goal is not a number'
+        budget: 'IO Budget is not a number'
+        cpm: 'Cog cpm is not a number'
+        cogs: 'Cog cogs is not a number'
+        filter: 'Campaign activities value is not a number'
+        tactic_budget: 'Tactics budget is not a number'
+        tactic_impression_cap: 'Tactics impression cap is not a number'
+        add_on_cost_rate: 'Add on costs value is not a number'
+        activity_type: 'Campaign activities value is not a number'
+        ctr_goal: 'Goal ctr is not a number'
+    string_msgs:
+        cpa: 'Cog cpa goal is not a number'
+        budget: 'IO Budget is not a number'
+        cpm: 'Cog cpm is not a number'
+        cogs: 'Cog cogs is not a number'
+        tactic_budget: 'Tactics budget is not a number'
+        tactic_impression_cap: 'Tactics impression cap is not a number'
+    range_msgs:
+        cpa: 'Cog cpa goal must be less than or equal to 10000'
+        budget: 'IO Budget must be less than or equal to 500,000'
+        cpm: 'Cog cpm must be less than or equal to 100'
+        cogs: 'Cog cogs must be less than or equal to 10'
+        margin: 'Cog margin must be less than 100'
+        ctr: 'Goal ctr must be less than or equal to 100'
+    negative_value_message:
+        third_party_tag_id: 'Campaign activities activity third party server id external must be all digits'
+        activity_value: 'Campaign activities is invalid'
+        ctr_goal: 'Goal ctr must be greater than or equal to 0'
+        cpm: 'Cog cpm must be greater than or equal to 0.01'
+    alphanumeric_value_msgs:
+        third_party_tag_id: 'Campaign activities activity third party server id external must be all digits'
+        activity_value: 'Campaign activities is invalid'
+        aoc_rate: 'Add on costs value is not a number'
+    date_ahead_msgs: 'End date cannot have an end date prior to the start date'
+    limit_msgs:
+        activity: 'Campaign activities activity third party server id external is too short (minimum is 6 characters)'
+        aoc: 'Add on costs name is too long (maximum is 255 characters)'
+        tactics: 'Tactics name is too long (maximum is 255 characters)'
+    geofenced_msgs:
+        invalid_csv: 'Failure to upload GeoFence groups.,Unrecognized file type.,Expected a CSV file.'
+        invalid_name: 'Failure to upload GeoFence groups.,Name is too long (maximum is 255 characters)'
+        valid: '110 recognized.'
+    campaign_success_msg: 'Flight budget and schedule setup'
+    postal_code_msgs:
+        invalid_csv: "Failure to upload postal codes. Unsupported file format '.txt'"
+        invalid_name: 'Failure to upload GeoFence groups.,Name is too long (maximum is 255 characters)'
+        valid: '110 recognized.'
+    contents:
+            1: 'Level One'
+            2: 'Level Two'
+            3: 'Level Three'
+            4: 'Level Four'
+            5: 'Reach'
+            6: 'Media Cost'
+            7: 'Risk'
+            8: 'Run your ads using the filtering provided by our exchange partners to get the greatest reach at low cost.'
+            9: 'All exchanges provide some basic site categorization and filtering.'
+            10: 'Automatically exclude potentially offensive sites using'
+            11: 'IAB quality guidelines'
+            12: 'This may include some uncategorized / unknown sites.'
+            13: 'Run only on sites which have been classified according to'
+            14: 'This will exclude all uncategorized or potentially offensive sites.'
+            15: 'Upload a custom whitelist of sites for your campaign.'
+            16: 'Depending on your list,'
+            17: 'your reach and cost of media may be affected.'
+    campaign_attributes:
+        campaign_name: ''
+        start_date: ''
+        end_date: ''
+        order: ''
+        cpa: ''
+        budget: ''
+        cpm: ''
+        cogs: ''
+        margin: ''
+        model: ''
+        activity_pixel: ''
+        pixel_type: ''
+        pixel_value: ''
+        filters_value: ''
+        tag_server: ''
+        tag_id: ''
+        goal_ctr: ''
+        tactics: ''
+        tactics_value: ''
+        tactics_budget: ''
+        icaps: ''
+        aoc_name: ''
+        aoc_custom: ''
+        aoc_rate: ''
+        fee_type: ''
+        source: ''
+        source_value: ''
+        base_lang_target: ''
+        lang_target: ''
+        geo_target_type: ''
+        geo_target: ''
+        geofenced_file: ''
+        geofenced_group_name: ''
+        brand_safety_level: ''
+        whitelist: ''
+        blacklist: ''
+        objective: 'performance'
+        whitelist_file: ''
+        blacklist_file: ''
+        is_billable: False
+        is_marketpalce: False
+    campaign_values:
+        value_ten: '10'
+        budget: '5000'
+        cogs: '0.19'
+        margin: '35.139'
+        objective_distribution: 'distribution'
+        objective_performance: 'performance'
+        objective_ctr: 'ctr'
+        objective_views: 'views'
+        ctr_goal: '100'
+        custom_value: 'Custom...'
+        retargeting_tactic: 'Retargeting'
+        optimized_tactics: 'Optimized'
+        geo_targeting_tactic: 'GeoTargeting'
+        channel_tactics: 'Channel'
+        tactics_budget: '1000'
+        true_val: True
+        fractional_value: '1.973'
+        first_source: 'RMX'
+        first_source_value: '11'
+        sec_source: 'Atlas'
+        sec_source_value: '19'
+        third_source: 'WURFL'
+        third_source_value: '39'
+        four_source: 'BlueKai'
+        four_source_value: '17'
+        five_source: 'DFA'
+        five_source_value: '15'
+        six_source: 'MediaMind'
+        six_source_value: '91'
+        seven_source: 'Facebook'
+        seven_source_value: '91'
+        eight_source: 'Facebook Campaign'
+        eight_source_value: '91'
+        nine_source: 'Facebook Page Post Ad'
+        nine_source_value: '91'
+        first_lang_target: 'French'
+        first_geo_target: 'France'
+        sec_lang_target: 'English'
+        geo_target_type: '0'
+        geo_fenced_file: 'valid_geohash_upload.csv'
+        sec_geo_target: 'Canada'
+        brand_safety_four: '4'
+        whitelist: 'www.example.com'
+        blacklist: 'www.mine.com'
+        csv_file: 'exports_3.csv'
+        txt_file: 'domain_txt.txt'
+        xls_file: 'domain_xls.xls'
+        xlsx_file: 'domain_xlsx.xlsx'
+        blank_csv: 'blank.csv'
+        new_xls_file: 'domain_xls_15.xls'
+        new_xlsx_file: 'domain_xlsx_black.xlsx'
+        blank_xlsx: 'blank_xlsx.xlsx'
+    one_view_section_disabled:
+        by: 'css selector'
+        value: 'div[id=oneview][class*=hide]'
+    one_view_section_enabled:
+        value: 'oneview'
+    single_device_disabled:
+        by: 'css selector'
+        value: 'input[id=campaign_oneview_policy_uid_TdBljmQIbB][disabled="disabled"]'
+    high_precision_disabled:
+        by: 'css selector'
+        value: 'input[id=campaign_oneview_policy_uid_TdeSfwhQ3E][disabled="disabled"]'
+    broad_reach_disabled:
+        by: 'css selector'
+        value: 'input[id=campaign_oneview_policy_uid_Tdf2yuzHuy][disabled="disabled"]'
+    one_view_aoc_list: ['DXU-ONV-009 - DataXu OneView']
+    one_view_policies_disabled: ['single_device_disabled', 'high_precision_disabled', 'broad_reach_disabled']
+    one_view_forecast_message: 'OneView cross-device results are not included in forecasts.'
+    single_device_enabled:
+        value: 'campaign_oneview_policy_uid_TdBljmQIbB'
+    high_precision_enabled:
+        value: 'campaign_oneview_policy_uid_TdeSfwhQ3E'
+    broad_reach_enabled:
+        value: 'campaign_oneview_policy_uid_Tdf2yuzHuy'
+    investment_available_in_market:
+        by: 'css selector'
+        value: '.ng-transclude > .ng-scope > div:nth-child(3) > .col-md-12 > div:nth-child(2) > div > strong > span'
+    impressions_available_in_market:
+        by: 'css selector'
+        value: '.ng-transclude > .ng-scope > div:nth-child(4) > .col-md-12 > div:nth-child(2) > div > strong > span'
+    impressions_budget:
+        by: 'css selector'
+        value: '.ng-transclude > .ng-scope > div:nth-child(4) > .col-md-12 > div:nth-child(3) > div > strong > span'
+    one_view_policies_enabled: ['high_precision_enabled', 'broad_reach_enabled', 'single_device_enabled']
+    oneview_warning_popup:
+        by: 'css selector'
+        value: '.modal-dialog.no-close-button'
+    oneview_popup_ok:
+        by: 'css selector'
+        value: '.no-close-button > div:nth-child(3) > button:nth-child(1)'
+    oneview_popup_cancel:
+        by: 'css selector'
+        value: '.no-close-button > div:nth-child(3) > button:nth-child(2)'
+    broad_reach_warning: ['high_precision_enabled', 'single_device_enabled']
+    single_device_warning: ['high_precision_enabled', 'broad_reach_enabled']

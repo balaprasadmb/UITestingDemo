@@ -1,0 +1,83 @@
+advertiser_details_page:
+    header: 
+        by: 'css selector'
+        value: '.box.header-text'
+    advertiser_list_page_link:
+        by: 'css selector'
+        value: '.headBot>p>a'
+    agency_group_link:
+        by: 'css selector'
+        value: '#details_content > div:nth-child(2) > div:nth-child(2) > a'
+    agency_list:
+        by: 'css selector'
+        value: '#details_content > div:nth-child(2) > div:nth-child(1) > a'
+    edit_details_button:
+        by: 'css selector'
+        value: '.button_to>div>input'
+    details_section:
+        value: 'details'
+    currencies_section:
+        value: 'currencies'
+    settings_section:
+        value: 'settings'
+    add_on_cost_section:
+        value: 'add_on_costs'
+    rate_card_section:
+        value: 'segment_rates'
+    licenses_section:
+        value: 'licenses'
+    private_inventory_section:
+        value: 'inventories'
+    seats_section:
+        value: 'seats'
+    details_section_elements:
+        advertiser_domain:
+            by: 'css selector'
+            value: '#details_content > div:nth-child(1) > div > strong'
+        agency:
+            by: 'css selector'
+            value: '#details_content > div:nth-child(2) > div:nth-child(1) > strong'
+        agency_group:
+            by: 'css selector'
+            value: '#details_content > div:nth-child(2) > div:nth-child(2) > strong'
+        status: 
+            by: 'css selector'
+            value: '#details_content > div:nth-child(3) > div:nth-child(1) > strong'
+        platform:
+            by: 'css selector'
+            value: '#details_content > div:nth-child(3) > div:nth-child(2) > strong'
+        blocked_publisher_link:
+            by: 'link text'
+            value: 'Review Blocked Publishers'
+    cogs_value:
+        by: 'css selector'
+        value: '.cogs'
+    margin_value:
+        by: 'css selector'
+        value: '.margin'
+    add_on_cost_rate:
+        by: 'css selector'
+        value: '.cols1.aoc_value.rgt.break-word'
+    add_on_cost_name:
+        by: 'css selector'
+        value: '.cols3.aoc_name.break-word'
+    oba_compliance_section:
+        value: 'oba_compliance'
+    facebook_section:
+        value: 'facebook_pages'
+    seat_content:
+        by: 'css selector'
+        value: 'tr > td:nth-child(2) > div'
+    contracted_currency_on_show_page:
+        by: 'css selector'
+        value: '.contracted_currency'
+    success_message: 'Successfully updated advertiser {0}.'
+    show_page_content: ['advertiser_list_page_link', 'details_section', 'facebook_section', 'currencies_section', 'settings_section', 'add_on_cost_section', 'rate_card_section', 'licenses_section', 'private_inventory_section', 'seats_section', 'edit_details_button', 'oba_compliance_section']
+    details_section_content: ['advertiser_domain', 'agency', 'agency_group', 'status', 'platform', 'blocked_publisher_link']
+    one_view_section:
+      data_policy_text:
+          by: 'css selector'
+          value: '.cols11>table>tbody > tr:nth-child({0}) > td:nth-child(2)'
+      green_tick:
+          by: 'css selector'
+          value: '.cols11>table>tbody > tr:nth-child(2) > td:nth-child(1) > img'

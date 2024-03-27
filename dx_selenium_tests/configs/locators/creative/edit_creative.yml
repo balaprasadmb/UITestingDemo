@@ -1,0 +1,94 @@
+#default by: 'id'
+edit_creative:
+    list_of_advertiser_creative:
+        by: 'css selector'
+        value: '.headBot>p>a:nth-child(1)'
+    all_list:
+        by: 'css selector'
+        value: '.headBot>p>a:nth-child(2)'
+    name:
+        value: 'creative_name'
+    concept:
+        value: 'creative_concept'
+    size:
+        value: 'creative_size'
+    ad_type:
+        value: 'creative_creative_format_id'
+    ad_feature:
+        value: 'creative_creative_sub_format_id'
+    url:
+        value: 'creative_primary_url'
+    offer_type:
+        value: 'creative_offer_type_id'
+    additional:
+        value: 'creative_additional_urls'
+    lang_targeting:
+        value: 'creative_language_id'
+    start_date:
+        value: 'creative_start_date_visible'
+    end_date:
+        value: 'creative_end_date_visible'
+    add_vendor:
+        by: 'css selector'
+        value: '.ad_service_vendor'
+    vendor:
+        value: 'creative_creative_ad_service_vendors_attributes_0_ad_service_vendor_id'
+    is_flash:
+        value: 'creative_is_flash'
+    placement:
+        value: 'creative_position'
+    z_index:
+        value: 'creative_z_index'
+    add_external_id:
+        by: 'css selector'
+        value: '.external_id'
+    source:
+        value: 'creative_external_ids_attributes_0_source'
+    value:
+        value: 'creative_creative_external_ids_attributes_0_external_id'
+    second_source:
+        by: 'css selector'
+        value: '#external_ids_content>div>div:nth-child(2)>div>div>select'
+    second_value:
+        by: 'css selector'
+        value: '#external_ids_content>div>div:nth-child(2)>div>div>input'
+    new_creative_add_on:
+        by: 'css selector'
+        value: '.add_creative_add_on'
+    add_on:
+        by: 'css selector'
+        value: '.creative_add_ons_bucket>div:nth-child(1)>div>div>textarea'
+    add_on_type:
+        by: 'css selector'
+        value: '.creative_add_ons_bucket>div:nth-child(1)>div>div>div>select'
+    click_tracking:
+        value: 'creative_use_click_tracking'
+    original:
+        value: 'original_tag_link'
+    processed:
+        value: 'processed_tag_link'
+    secure:
+        value: 'secure_tag_link'
+    secure_processed:
+        value: 'secure_processed_tag_link'
+    tags:
+        value: 'creative_processed_ad_tag_snippet'
+    cancel:
+        by: 'css selector'
+        value: 'input[value="Cancel"]'
+    preview:
+        value: 'creative_preview_button'
+    update:
+        value: 'creative_submit'
+    edit_form:
+        by: 'id'
+        value: 'form_root'
+    error:
+        by: 'id'
+        value: 'flash_message'
+    messages:
+        name: 'Name is invalid'
+        concept: "Concept can't be blank"
+        limit_name: 'Name is too long (maximum is 255 characters)'
+        limit_concept: 'Concept is too long (maximum is 200 characters)'
+        success: "Creative ‘{0}’ was successfully updated and resubmitted for registration with exchanges if applicable."

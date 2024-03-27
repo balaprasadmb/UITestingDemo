@@ -1,0 +1,46 @@
+#default by: 'id'
+custom_inventory_edit_page:
+    custom_inventory_link:
+        by: 'css selector'
+        value: '.breadcrumbs > a'
+    custom_inventory_form:
+        value: 'new_custom_inventory'
+    custom_inventory_publisher_name:
+        value: 'custom_inventory_publisher_domains'
+    custom_inventory_placement_name:
+        value: 'custom_inventory_name'
+    custom_inventory_available_checkbox:
+        value: 'custom_inventory_active'
+    custom_inventory_secure_checkbox:
+        value: 'custom_inventory_secure'
+    custom_inventory_media_type_dropdown:
+        value: 'custom_inventory_media_type'
+    custom_inventory_tag_type_dropdwon:
+        value: 'custom_inventory_ad_tag_type_id'
+    custom_inventory_size_dropdown:
+        by: 'css selector'
+        value: '.creative_size'
+    custom_inventory_not_assigned_link:
+        by: 'css selector'
+        value: '.add_default_creative'
+    custom_inventory_remove_creative_size_button:
+        by: 'css selector'
+        value: '.remove_creative_size'
+    custom_inventory_add_another_size_button:
+        by: 'css selector'
+        value: '.add.add_creative_size'
+    custom_inventory_budget_section_header:
+        by: 'css selector'
+        value: '.section_title.cols4 > span.small'
+    custom_inventory_currency_dropdown:
+        value: '#custom_inventory_currency_id'
+    custom_inventory_budget_textbox:
+        value: 'custom_inventory_budget'
+    custom_inventory_cost_textbox:
+        value: 'custom_inventory_cost_value'
+    custom_inventory_cancel_button:
+        by: 'css selector'
+        value: '.cols9 > input:nth-child(1)'
+    save_custom_inventory_button:
+        by: 'css selector'
+        value: '.cols9 > input:nth-child(2)'

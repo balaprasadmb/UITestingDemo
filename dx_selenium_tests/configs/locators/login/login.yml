@@ -1,0 +1,48 @@
+#default by: 'id'
+login:
+    url: 'login/'
+    email:
+        value: 'user_session_email'
+    password:
+        value: 'user_session_password'
+    login_submit:
+        value: 'user_session_submit'
+    system_message_dialog:
+        by: 'css selector'
+        value: '.ui-dialog'
+    system_message_dialog_close_link:
+        by: 'css selector'
+        value: '.ui-icon-closethick'
+    user_password:
+        value: 'user_password'
+    user_password_confirmation:
+        value: 'user_password_confirmation'
+    audience_tab:
+        value: 'ql_audiences'
+    activity_tab:
+        value: 'ql_activities'
+    inventory_tab:
+        value: 'ql_inventory'
+    admin_link_message: 'Administration'
+    admin_page_by_role:
+        inventory_manager:
+            title: 'Administration'
+            edit_my_link: 'Edit My Account'
+            report_inbox: 'Report Inbox'
+            inventory_link: 'Inventory'
+            segments: 'Segments'
+            agency_groups: 'Agency Groups'
+            agencies: 'Agencies'
+            advertisers: 'Advertisers'
+            user: 'User'
+    permitted_to_create_campaign: 'Create New Campaign'
+    permitted_to_create_creative: 'Creative'
+    permitted_to_create_user: 'Create New User'
+    permitted_to_create_reports: 'Business intelligence reports'
+    permitted_to_product_feature: 'Product Features'
+    permitted_to_login_slide: 'Login Screen Slides'
+    permitted_to_audience: 'Audience'
+    permitted_to_activity: 'Activity'
+    permitted_to_inventory: 'Inventory'
+    edit_my_account_link: 'Edit My Account'
+    edit_user_page: 'Edit User'

@@ -1,0 +1,76 @@
+#default by: 'id'
+create_segment:
+    back_to_list_link:
+        by: 'css selector'
+        value: '.headBot > p > a'
+    show_link:
+        by: 'css selector'
+        value: '.headBot > p > a:nth-child(1)'
+    view_all_link:
+        by: 'css selector'
+        value: '.headBot > p > a:nth-child(2)'
+    segment_name_text_box:
+        value: 'segment_name'
+    expiration_text_box:
+        value: 'segment_expiration'
+    expiration_units_dropdown:
+        value: 'segment_expiration_units'
+    frequency_text_box:
+        value: 'segment_minimum_activity_fire_count'
+    enable_sharing_checkbox:
+        value: 'segment_sharing_enabled'
+    organization_master_checkbox:
+        by: 'css selector'
+        value: '.select_all'
+    sharing_agency_group_name:
+        by: 'css selector'
+        value: '.expandable_label'
+    add_pixel_activity_button:
+        by: 'css selector'
+        value: '.add.ajax_dialog'
+    see_all_pixels_link:
+        by: 'css selector'
+        value: '.cols6 > h5 > a'
+    added_pixel_activity_name:
+        by: 'css selector'
+        value: 'tbody > tr:nth-child(1) > td.name_link > a'
+    added_pixel_activity_gear_icon:
+        by: 'css selector'
+        value: 'tbody > tr:nth-child(1) > td.actions > span > img'
+    added_pixel_activity_link:
+        by: 'css selector'
+        value: 'tbody > tr:nth-child(1) > td.actions > span > .gear_box_content > ol > li:nth-child(1) > a'
+    create_segment_button:
+        value: 'segment_submit'
+    cancel_button:
+        by: 'css selector'
+        value: 'input[value="Cancel"]'
+    remove_pixel_activity_button:
+        by: 'css selector'
+        value: '.remove.ajax_dialog'
+    pixel_popup_filter:
+        value: 'filter_activities'
+    pixel_popup_last_fired_dropdown:
+        value: 'filter_activities_by_last_fired'
+    pixel_popup_master_checkbox:
+        value: 'checkall'
+    pixel_popup_add_selected_button:
+        by: 'css selector'
+        value: "input[value = 'Add Selected']"
+    pixel_popup_first_activity_checkbox:
+        by: 'css selector'
+        value: '#available-activities-table-edit > tbody > tr:nth-child(1) > td:nth-child(1) > input'
+    pixel_popup_first_activity_name:
+        by: 'css selector'
+        value: '#available-activities-table-edit > tbody > tr:nth-child(1) > td:nth-child(2) > a'
+    pixel_popup_close_button:
+        by: 'css selector'
+        value: '.ui-icon-closethick'
+    segment_create_page_elements: ['back_to_list_link', 'segment_name_text_box', 'expiration_text_box', 'expiration_text_box', 'frequency_text_box', 'create_segment_button', 'cancel_button']
+    pixel_popup_elements: ['pixel_popup_filter', 'pixel_popup_last_fired_dropdown', 'pixel_popup_master_checkbox', 'pixel_popup_add_selected_button']
+    pixel_popup_contents: ['Activity name', 'Pixel ID', 'Activity type', 'Last fired', '30 day activity']
+    segment_blank_name_error: "Name can't be blank"
+    segment_name_255_error: "Name must contain fewer than 255 characters"
+    expiration_upper_limit_error: "Expiration should be less then 15 years"  
+    expiration_zero_error: "Expiration must be greater than 0"
+    expiration_chars_error: "Expiration is not a number"

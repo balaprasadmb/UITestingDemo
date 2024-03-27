@@ -1,0 +1,22 @@
+#default by: 'id'
+admin_page:
+    system_message_popup:
+        by: 'css selector'
+        value: '.ui-dialog'
+    system_message_close:
+        by: 'css selector'
+        value: '.ui-icon-closethick'
+    advertiser_link:
+        by: 'css selector'
+        value: '.account_groups > div:nth-child(3) > ul > li:nth-child(3) > a'
+    display_message_link:
+        value: 'display_notices'
+    dismiss_all_notices_button:
+        by: 'css selector'
+        value: '.dismiss_all_notices'
+    system_message_table:
+        by: 'css selector'
+        value: '.sortable.selectable'
+    login_screen_slides_link:
+        by: 'link text'
+        value: 'Login screen slides'

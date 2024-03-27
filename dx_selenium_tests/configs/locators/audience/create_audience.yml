@@ -1,0 +1,72 @@
+#default by: 'id'
+create_audience:
+    currency_dropdown:
+        value: 'currency_switcher'
+    segment_table:
+        value: 'first_party_segments_table'
+    segment_search_searchbox:
+        by: 'css selector'
+        value: '#first_party_segments_content > .group > .cols4 > input#name'
+    first_segment_checkbox:
+        by: 'css selector'        
+        value: '#first_party_segments_table  > table > tbody > tr:nth-child(1) > .selectable > input'
+    audience_marketplace_table:
+        value: 'third_party_segments_table'
+    audience_marketplace_searchbox:
+        by: 'css selector'
+        value: '#third_party_segments_content > .group > .cols4 > input#name'
+    first_audience_marketplace_checkbox:
+        by: 'css selector'
+        value: '#third_party_segments_table > div > div > table > tbody > tr:nth-child(1) > td.selectable > input'
+    recommended_segments_table:
+        value: 'recommended_segments'
+    recommended_segments_master_checkbox:
+        by: 'css selector'
+        value: '#recommended_segments_table > .selectable .select_all'
+    use_advance_mode_checkbox:
+        by: 'css selector'
+        value: 'input#segment_composed_with'
+    composed_audience_table:
+        value: 'audience_table'
+    composed_audience_master_checkbox:
+        by: 'css selector'
+        value: '#audience_table > .selectable .select_all'
+    and_button:
+        by: 'css selector'
+        value: '.and_trigger'
+    or_button:
+        by: 'css selector'
+        value: '.or_trigger'
+    replace_button:
+        by: 'css selector'
+        value: '.replace_trigger'
+    remove_button:
+        by: 'css selector'
+        value: '.remove_trigger'
+    audience_name_textbox:
+        value: 'segment_name'
+    cancel_button:
+        by: 'css selector'
+        value: "input[value = 'Cancel']"
+    create_audience_button:
+        value: 'segment_submit'
+    first_audience_marketplace_segment_name:
+        by: 'css selector'
+        value: '.tablescroll_wrapper > .sortable > tbody > tr:nth-child(1) > td.display_name > .expandable_label > span'
+    first_audience_marketplace_rate_card_value:
+        by: 'css selector'
+        value: '.tablescroll_wrapper > .sortable > tbody > tr:nth-child(1) > td.price_formatted'
+    first_audience_marketplace_segment_size_value:
+        by: 'css selector'
+        value: '.tablescroll_wrapper > .sortable > tbody > tr:nth-child(1) > td.unique_users_formatted'
+    first_composed_audience_name:
+        by: 'css selector'
+        value: '#audience_table > .sortable > tbody> tr:nth-child(1) > td.display_name > span'
+    first_composed_audience_rate_card_value:
+        by: 'css selector'
+        value: '.price_formatted>input[type="text"]'
+    first_composed_audience_segment_size_value:
+        by: 'css selector'
+        value: '#audience_table > .sortable > tbody > tr:nth-child(1) > td.unique_users_formatted'
+    success_message: "Successfully created segment '{0}'."
+    create_audience_page_elements: ['currency_dropdown', 'segment_table', 'audience_marketplace_table', 'recommended_segments_table', 'composed_audience_table', 'cancel_button', 'create_audience_button']

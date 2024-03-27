@@ -1,0 +1,81 @@
+#default by: 'id'
+guaranteed_inventory_edit_page:
+    guaranteed_inventory_link:
+        by: 'css selector'
+        value: '.breadcrumbs > a'
+    guaranteed_inventory_form:
+        value: 'new_guaranteed_inventory'
+    guaranteed_inventory_publisher_name:
+        value: 'guaranteed_inventory_publisher_domains'
+    guaranteed_inventory_placement_name:
+        value: 'guaranteed_inventory_name'
+    guaranteed_inventory_available_checkbox:
+        value: 'guaranteed_inventory_active'
+    guaranteed_inventory_secure_checkbox:
+        value: 'guaranteed_inventory_secure'
+    guaranteed_inventory_media_type_dropdown:
+        value: 'guaranteed_inventory_media_type'
+    guaranteed_inventory_tag_type_dropdown:
+        value: 'guaranteed_inventory_ad_tag_type_id'
+    guaranteed_inventory_tag_size_dropdown01:
+        by: 'css selector'
+        value: '.creative_sizes > div:nth-child(1) > .cols3 > .creative_size'
+    guaranteed_inventory_tag_size_dropdown02:
+        by: 'css selector'
+        value: '.creative_sizes > div:nth-child(1) > .cols3 > .creative_size'
+    guaranteed_inventory_not_assigned_link01:
+        by: 'css selector'
+        value: '.creative_sizes > div:nth-child(1) > .cols7 > .add_default_creative'
+    guaranteed_inventory_not_assigned_link02:
+        by: 'css selector'
+        value: '.creative_sizes > div:nth-child(2) > .cols7 > .add_default_creative'
+    guaranteed_inventory_remove_creative_size_button01:
+        by: 'css selector'
+        value: '.creative_sizes > div:nth-child(1) > .cols1 > .remove_creative_size'
+    guaranteed_inventory_remove_creative_size_button02:
+        by: 'css selector'
+        value: '.creative_sizes > div:nth-child(2) > .cols1 > .remove_creative_size'
+    guaranteed_inventory_add_another_size_button:
+        by: 'css selector'
+        value: '.add.add_creative_size'
+    guaranteed_inventory_budget_section_header:
+        by: 'css selector'
+        value: '.section_title.cols4 > span.small'
+    guaranteed_inventory_budget_currency_dropdown:
+        value: 'guaranteed_inventory_currency_id'
+    guaranteed_inventory_budget_textbox:
+        value: 'guaranteed_inventory_budget'
+    guaranteed_inventory_cost_textbox:
+        value: 'guaranteed_inventory_cost_value'
+    guaranteed_inventory_cancel_button:
+        by: 'css selector'
+        value: '.cols9>input:nth-child(1)'
+    guaranteed_inventory_save_button:
+        by: 'css selector'
+        value: '.cols9>input:nth-child(2)'
+    guaranteed_inventory_creative_popup_locator:
+        by: 'css selector'
+        value: '.ui-dialog.ui-widget.ui-widget-content.ui-corner-all.modal-dialog'
+    guaranteed_inventory_creative_popup_title:
+        value: 'ui-dialog-title-1'
+    guaranteed_inventory_creative_popup_close_button:
+        by: 'css selector'
+        value: '.ui-icon.ui-icon-closethick'
+    guaranteed_inventory_creative_popup_creative_name_header:
+        by: 'css selector'
+        value: '.sortable.name'
+    guaranteed_inventory_creative_popup_creative_concept_header:
+        by: 'css selector'
+        value: '.sortable.concept'
+    guaranteed_inventory_creative_popup_created_header:
+        by: 'css selector'
+        value: '.sortable.created_at'
+    guaranteed_inventory_creative_popup_assign_creative_button:
+        by: 'css selector'
+        value: '.assign_creative.primary'
+    guaranteed_inventory_edit_page_contents: ['Inventory Details', 'Inventory and Tags', 'Budget', 'Size']
+    guaranteed_inventory_edit_page_elements: ['guaranteed_inventory_publisher_name', 'guaranteed_inventory_placement_name', 'guaranteed_inventory_available_checkbox', 'guaranteed_inventory_secure_checkbox', 'guaranteed_inventory_media_type_dropdown', 'guaranteed_inventory_tag_type_dropdown', 'guaranteed_inventory_tag_size_dropdown01', 'guaranteed_inventory_not_assigned_link01', 'guaranteed_inventory_remove_creative_size_button01', 'guaranteed_inventory_add_another_size_button', 'guaranteed_inventory_cancel_button', 'guaranteed_inventory_save_button', 'guaranteed_inventory_budget_currency_dropdown', 'guaranteed_inventory_budget_textbox', 'guaranteed_inventory_cost_textbox']
+    guaranteed_inventory_another_size_element: ['guaranteed_inventory_tag_size_dropdown02', 'guaranteed_inventory_not_assigned_link02', 'guaranteed_inventory_remove_creative_size_button02']
+    guaranteed_inventory_assign_creative_popup_elements: ['guaranteed_inventory_creative_popup_title', 'guaranteed_inventory_creative_popup_close_button', 'guaranteed_inventory_creative_popup_creative_name_header', 'guaranteed_inventory_creative_popup_creative_concept_header', 'guaranteed_inventory_creative_popup_created_header', 'guaranteed_inventory_creative_popup_assign_creative_button']
+    guaranteed_inventory_budget_section_elements: ['guaranteed_inventory_budget_currency_dropdown', 'guaranteed_inventory_budget_textbox', 'guaranteed_inventory_cost_textbox']
+    maximum_duration_dropdown: ['15 seconds', '20 seconds', '30 seconds', '60 seconds', 'No Maximum'] 

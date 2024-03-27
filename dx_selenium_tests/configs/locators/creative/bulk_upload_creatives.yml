@@ -1,0 +1,26 @@
+#default by: 'id'
+bulk_upload_creatives:
+    url: 'advertisers/161/creatives/batch_upload'
+    creatives_file:
+        value: 'advertiser_creatives'
+    start_date:
+        value: 'start_date_visible'
+    end_date:
+        value: 'end_date_visible'
+    concept:
+        value: 'concept'
+    is_flash:
+        value: 'is_flash'
+    submit:
+        value: 'advertiser_submit'
+    use_assets:
+        by: 'link text'
+        value: 'upload assets instead'
+    setup_creatives:
+        by: 'link text'
+        value: 'Set up creatives one at a time'
+    download_example:
+        by: 'link text'
+        value: 'Download Example'
+    creative_attributes_section:
+        value: 'creative_attributes'

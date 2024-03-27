@@ -1,0 +1,42 @@
+#default by: 'id'
+creative_list:
+    url: '/admin/advertisers/161/creatives/'
+    advertiser_click:
+        by : 'css selector'
+        value : '.chzn-container>a.chzn-single>div'
+    advertiser_input:
+        by: 'css selector'
+        value: '.chzn-container>.chzn-drop>.chzn-search>input'
+    new_creative_button:
+        by: 'css selector'
+        value: '.new_creative_button'
+    filters:
+        value: 'filter_creatives'
+    select_all:
+        by: 'css selector'
+        value: '.select_all'
+    first_creative_checkbox:
+        by: 'css selector'
+        value: '#creatives_view>table>tbody>tr:nth-child(1)>.selectable>input'
+    first_creative_link:
+        by: 'css selector'
+        value: '#creatives_view>table>tbody>tr:nth-child(1)>.name>a'
+    rmx_ids_popup:
+        by: 'css selector'
+        value: '.ui-dialog.ui-widget.ui-widget-content.ui-corner-all.dialog-500'
+    close_rmx_ids_popup:
+        by: 'css selector'
+        value: '.ui-icon.ui-icon-closethick'
+    get_rmx_id:
+        by: 'css selector'
+        value: '.show_ids'
+    creative_table:
+        by: 'css selector'
+        value: '#creatives_view>table'
+    creatives_view:
+        by: 'id'
+        value: 'creatives_view'
+    search: '728x90'
+    creative_tag_spinner:
+        by: 'css selector'
+        value: '#creatives_list_title > .spinner'

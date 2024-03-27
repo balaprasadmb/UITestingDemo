@@ -1,0 +1,52 @@
+#default by: 'id'
+system_notices_list:
+    url: 'account/'
+    new_system_message_link: 'New Message'
+    admin_link: 'Admin'
+    filter_system_notices:
+        value: 'filter_system_notices'
+    select_all_messages:
+        by: 'css selector'
+        value: '.select_all'
+    delete_selected_message_button:
+        by: 'css selector'
+        value: '.delete-selected'
+    preview_selected_message_button:
+        by: 'css selector'
+        value: '.preview-selected'
+    select_first_system_message_checkbox:
+        by: 'css selector'
+        value: '.selectable.focused > input'
+    select_first_system_message_name:
+        by: 'css selector'
+        value: '.sortable > tbody > tr:nth-child(1) > td:nth-child(2) > a'    
+    system_message_list_contents:
+        title: 'System Messages'
+        new_message_link: 'New Message'
+        delete_message_link: 'Delete'
+        preview_message_link: 'Preview'
+    gear_icon:
+        by: 'css selector'
+        value: '.gear_box'
+    click_edit_link:
+        by: 'link text'
+        value: 'Edit'
+    click_preview_link:
+        by: 'link text'
+        value: 'Preview'    
+    click_delete_link:
+        by: 'link text'
+        value: 'Delete' 
+    click_clone_link:
+        by: 'link text'
+        value: 'Clone'
+    preview_popup:
+        by: 'css selector'
+        value: '.ui-icon.ui-icon-closethick'
+    preview_popup_content:
+        by: 'css selector'
+        value: '.ui-dialog.ui-widget.ui-widget-content.ui-corner-all.dialog-600'               
+    gear_icon_system_message: ["Edit", "Preview", "Delete", "Clone"]
+    create_system_message_content: ["Message Type", "Display to Users", "Title", "Start Date", "End Date", "Status", "Importance", "External Link Text", "External Link URL"]  
+    message_type: ["Planned Outage", "Reporting Delays", "Reporting Delays", "Reporting Delays Resolved", "Other"]
+
